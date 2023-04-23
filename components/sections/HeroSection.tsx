@@ -8,11 +8,11 @@ export const HeroSection: React.FC = () => {
     return (
         <section className='flex flex-col justify-center items-center w-[90%] m-auto text-4xl md:text-5xl lg:text-6xl xl:text-7xl'>
             <div className='flex my-auto text-white font-bold '>
-                <motion.div className='relative flex'>
+                <motion.div className='flex justify-center items-center'>
                     <motion.div
                         className='flex'
-                        initial={{ translateX: 150 }}
-                        animate={{ x: -150 }}
+                        initial={{ translateX: 100 }}
+                        animate={{ x: -120 }}
                         transition={{ duration: 3 }}
                     >
                         <h1>D</h1>
@@ -32,7 +32,7 @@ export const HeroSection: React.FC = () => {
                     <motion.div
                         className='flex'
                         initial={{ translateX: 10 }}
-                        animate={{ x: 40 }}
+                        animate={{ x: 30 }}
                         transition={{ duration: 3 }}
                     >
                         <h1>J</h1>
