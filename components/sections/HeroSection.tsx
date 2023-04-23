@@ -12,7 +12,7 @@ export const HeroSection: React.FC = () => {
                     <motion.div
                         className='flex'
                         initial={{ translateX: 60 }}
-                        animate={{ x: -55 }}
+                        animate={{ x: -200 }}
                         transition={{ duration: 3 }}
                     >
                         <h1>D</h1>
