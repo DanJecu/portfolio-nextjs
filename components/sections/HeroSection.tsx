@@ -12,7 +12,7 @@ export const HeroSection: React.FC = () => {
                     <motion.div
                         className='flex'
                         initial={{ translateX: 70 }}
-                        animate={{ x: -70 }}
+                        animate={{ x: -80 }}
                         transition={{ duration: 3 }}
                     >
                         <h1>D</h1>
@@ -56,7 +56,7 @@ export const HeroSection: React.FC = () => {
                 src='/down-arrow.png'
                 width='50'
                 height='50'
-                className='self-end mx-auto filter invert animate-bounce opacity-60 pb-16'
+                className='self-end mx-auto filter invert animate-bounce opacity-60 pb-12'
             />
         </section>
     );
