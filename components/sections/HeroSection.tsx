@@ -13,7 +13,7 @@ export const HeroSection: React.FC = () => {
                         className='flex'
                         initial={{ translateX: 100 }}
                         animate={{ x: -120 }}
-                        transition={{ duration: 3 }}
+                        transition={{ duration: 3, delay: 2 }}
                     >
                         <h1>D</h1>
                         <motion.h1
@@ -23,7 +23,7 @@ export const HeroSection: React.FC = () => {
                             transition={{
                                 ease: 'linear',
                                 duration: 3,
-                                delay: 2,
+                                delay: 5,
                             }}
                         >
                             AN
@@ -31,9 +31,9 @@ export const HeroSection: React.FC = () => {
                     </motion.div>
                     <motion.div
                         className='flex'
-                        initial={{ translateX: 10 }}
-                        animate={{ x: 30 }}
-                        transition={{ duration: 3 }}
+                        initial={{ translateX: 25 }}
+                        animate={{ x: 10 }}
+                        transition={{ duration: 3, delay: 2 }}
                     >
                         <h1>J</h1>
                         <motion.h1
@@ -43,7 +43,7 @@ export const HeroSection: React.FC = () => {
                             transition={{
                                 ease: 'linear',
                                 duration: 3,
-                                delay: 2,
+                                delay: 5,
                             }}
                         >
                             ECU
