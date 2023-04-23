@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 // Sections
 import { HeroSection } from '@/components/sections/HeroSection';
+import { AboutSection } from '@/components/sections/AboutSection';
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             </Head>
             <main>
                 <HeroSection />
+                <AboutSection />
             </main>
         </>
     );
