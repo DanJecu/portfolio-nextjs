@@ -6,13 +6,13 @@ export const HeroSection: React.FC = () => {
     const [scope, animate] = useAnimate();
 
     return (
-        <section className='flex flex-col justify-center items-center w-[90%] m-auto text-4xl md:text-6xl lg:text-7xl xl:text-8xl'>
-            <div className='flex my-auto gap-0 text-white font-bold '>
+        <section className='flex flex-col justify-center items-center w-[90%] m-auto text-4xl md:text-5xl lg:text-6xl xl:text-7xl'>
+            <div className='flex my-auto text-white font-bold '>
                 <motion.div className='relative flex'>
                     <motion.div
                         className='flex'
-                        initial={{ translateX: 60 }}
-                        animate={{ x: -60 }}
+                        initial={{ translateX: 70 }}
+                        animate={{ x: -70 }}
                         transition={{ duration: 3 }}
                     >
                         <h1>D</h1>
@@ -31,7 +31,7 @@ export const HeroSection: React.FC = () => {
                     </motion.div>
                     <motion.div
                         className='flex'
-                        initial={{ translateX: -5 }}
+                        initial={{ translateX: 5 }}
                         animate={{ x: 20 }}
                         transition={{ duration: 3 }}
                     >
