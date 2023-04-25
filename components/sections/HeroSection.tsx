@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { Text } from '../Text';
 
 import { motion, useAnimate } from 'framer-motion';
 
@@ -8,48 +9,7 @@ export const HeroSection: React.FC = () => {
     return (
         <section className='flex flex-col justify-center items-center w-[90%] m-auto text-4xl md:text-5xl lg:text-6xl xl:text-7xl'>
             <div className='flex my-auto text-white font-bold '>
-                <motion.div className='flex justify-center items-center'>
-                    <motion.div
-                        className='flex'
-                        initial={{ translateX: 100 }}
-                        animate={{ x: -120 }}
-                        transition={{ duration: 3, delay: 2 }}
-                    >
-                        <h1>D</h1>
-                        <motion.h1
-                            className='opacity-0'
-                            initial={{ display: 'hidden' }}
-                            animate={{ display: 'inline', opacity: 1 }}
-                            transition={{
-                                ease: 'linear',
-                                duration: 3,
-                                delay: 5,
-                            }}
-                        >
-                            AN
-                        </motion.h1>
-                    </motion.div>
-                    <motion.div
-                        className='flex'
-                        initial={{ translateX: 0 }}
-                        animate={{ x: 10 }}
-                        transition={{ duration: 3, delay: 2 }}
-                    >
-                        <h1>J</h1>
-                        <motion.h1
-                            className='opacity-0'
-                            initial={{ display: 'hidden' }}
-                            animate={{ display: 'inline', opacity: 1 }}
-                            transition={{
-                                ease: 'linear',
-                                duration: 3,
-                                delay: 5,
-                            }}
-                        >
-                            ECU
-                        </motion.h1>
-                    </motion.div>
-                </motion.div>
+                <Text />
             </div>
             <Image
                 alt='down-arrow'
