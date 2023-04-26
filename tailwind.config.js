@@ -8,6 +8,9 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {},
+            fontFamily: {
+                general: ['Inter', 'sans-serif'],
+            },
         },
     },
     plugins: [],
