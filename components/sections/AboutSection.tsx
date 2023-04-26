@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { TextScroll } from '../TextScroll/TextScroll';
 
 export const AboutSection: React.FC = () => {
     return (
@@ -29,6 +30,19 @@ export const AboutSection: React.FC = () => {
                 background as a data analyst, I`m well acquainted to bringing
                 out solutions to complex problems.
             </p>
+            <div className='my-[30px]'>
+                <h1 className='text-center'>I am a</h1>
+
+                <TextScroll
+                    text='Full Stack Developer &middot; '
+                    direction='left'
+                />
+                <TextScroll
+                    text='Front-end Developer &middot; '
+                    direction='right'
+                />
+                <TextScroll text='Cool Millenial &middot; ' direction='left' />
+            </div>
         </section>
     );
 };
