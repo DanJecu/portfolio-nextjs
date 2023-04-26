@@ -49,9 +49,9 @@ export const Logo: React.FC = () => {
             </h1>
             <motion.h2
                 className='pt-1 text-2xl text-center text-[#a9aec0] font-thin md:text-3xl lg:text-4xl xl:text-5xl'
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ delay: 2.2, ease: 'linear', duration: 0.7 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 2.3, ease: 'easeOut', duration: 0.7 }}
             >
                 Full Stack Developer
             </motion.h2>
