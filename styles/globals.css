@@ -13,6 +13,7 @@ section {
     font-family: 'Inter', 'sans-serif';
 }
 
-h1 {
+h1,
+h2 {
     font-family: 'Bruno Ace', 'cursive';
 }
