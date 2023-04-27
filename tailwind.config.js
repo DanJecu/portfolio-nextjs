@@ -9,7 +9,7 @@ module.exports = {
         extend: {
             backgroundImage: {},
             fontFamily: {
-                general: ['Inter', 'sans-serif'],
+                general: ['Cabin', 'sans-serif'],
             },
         },
     },

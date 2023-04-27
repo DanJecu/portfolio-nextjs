@@ -5,7 +5,7 @@ export const AboutSection: React.FC = () => {
     return (
         <section className='flex flex-col items-center text-white'>
             <div className='flex items-center w-[95%] self-start mr-auto p-7'>
-                <h2 className='font-general font-bold text-2xl pr-4'>About</h2>
+                <h2 className=' font-bold text-2xl pr-4'>About</h2>
                 <div className='h-[1.5px] bg-white flex-1'></div>
             </div>
             <div className='pt-5 w-3/4 h-44'>
@@ -22,25 +22,24 @@ export const AboutSection: React.FC = () => {
                     }}
                 />
             </div>
-            <p className='w-[85%] pt-12 leading-relaxed text-justify text-[#A9AEC0]'>
-                Deeply invested in the life-long learning mentality, I`m a
+            <p className='w-[85%] pt-12 md:pt-16 leading-relaxed text-justify text-[#A9AEC0] md:text-lg'>
+                Deeply invested in the life-long learning mentality, I&#39;m a
                 full-stack developer who carries a keen eye for design in an
                 user-first approach. My focus is in creating responsive layouts
                 on the JavaScript stack of React and NodeJS, and from my
-                background as a data analyst, I`m well acquainted to bringing
-                out solutions to complex problems.
+                background as a data analyst, I&#39;m well acquainted to
+                bringing out solutions to complex problems.
             </p>
-            <div className='my-[30px]'>
-                <h1 className='text-center'>I am a</h1>
+            <div className='my-[30px] md:pt-10'>
+                <h1 className='text-center font-bold opacity-90 text-shadow-lg'>
+                    I am a
+                </h1>
 
                 <TextScroll
                     text='Full Stack Developer &middot; '
                     direction='left'
                 />
-                <TextScroll
-                    text='Front-end Developer &middot; '
-                    direction='right'
-                />
+                <TextScroll text='Life Student &middot; ' direction='right' />
                 <TextScroll text='Cool Millenial &middot; ' direction='left' />
             </div>
         </section>
