@@ -5,7 +5,6 @@
     align-items: center;
     width: 300px;
     overflow: hidden;
-
     margin-top: 12px;
     position: relative;
 
@@ -14,11 +13,9 @@
         position: absolute;
         top: 0;
         left: 0;
-
         background-image: linear-gradient(to right, #1f2028, transparent);
         height: 100%;
         width: 40px;
-
         z-index: 10;
     }
 
@@ -31,7 +28,6 @@
         background-image: linear-gradient(to left, #1f2028, transparent);
         height: 100%;
         width: 40px;
-
         z-index: 10;
     }
 

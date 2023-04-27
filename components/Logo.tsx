@@ -13,7 +13,7 @@ export const Logo: React.FC = () => {
                     layout
                     key='d'
                     style={{ display: 'inline-block' }}
-                    transition={{ ease: 'linear', duration: 0.7, delay: 0.2 }}
+                    transition={{ ease: 'linear', duration: 0.7, delay: 0.5 }}
                 >
                     D
                 </motion.span>
@@ -22,7 +22,7 @@ export const Logo: React.FC = () => {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         style={{ display: 'inline-block' }}
-                        transition={{ delay: 1, ease: 'easeIn', duration: 2 }}
+                        transition={{ delay: 1.5, ease: 'easeIn', duration: 2 }}
                     >
                         AN
                     </motion.span>
@@ -32,7 +32,7 @@ export const Logo: React.FC = () => {
                     layout
                     key='j'
                     style={{ display: 'inline-block' }}
-                    transition={{ ease: 'linear', duration: 0.7, delay: 0.2 }}
+                    transition={{ ease: 'linear', duration: 0.7, delay: 0.5 }}
                 >
                     J
                 </motion.span>
@@ -41,7 +41,7 @@ export const Logo: React.FC = () => {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         style={{ display: 'inline-block' }}
-                        transition={{ delay: 1, ease: 'easeIn', duration: 2 }}
+                        transition={{ delay: 1.5, ease: 'easeIn', duration: 2 }}
                     >
                         ECU
                     </motion.span>
@@ -51,7 +51,7 @@ export const Logo: React.FC = () => {
                 className='pt-1 text-2xl text-center text-[#a9aec0] font-thin md:text-3xl lg:text-4xl xl:text-5xl'
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 2.3, ease: 'easeOut', duration: 0.7 }}
+                transition={{ delay: 2.8, ease: 'easeOut', duration: 0.7 }}
             >
                 Full Stack Developer
             </motion.h2>
