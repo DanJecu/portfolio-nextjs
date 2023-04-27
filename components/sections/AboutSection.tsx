@@ -3,8 +3,8 @@ import { TextScroll } from '../TextScroll/TextScroll';
 
 export const AboutSection: React.FC = () => {
     return (
-        <section className='flex flex-col items-center text-white'>
-            <div className='flex items-center w-[95%] self-start mr-auto p-7'>
+        <section className='flex flex-col items-center text-white lg:w-[70%]'>
+            <div className='flex items-center w-[95%] self-start mr-auto p-7 lg:w-[70%] lg:p-14'>
                 <h2 className=' font-bold text-2xl pr-4'>About</h2>
                 <div className='h-[1.5px] bg-white flex-1'></div>
             </div>
