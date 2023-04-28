@@ -10,16 +10,11 @@ export const AboutSection: React.FC = () => {
             </div>
             <div className='pt-5 w-3/4 h-44'>
                 <Image
-                    className='m-auto blur-  contrast-125 brightness-50 drop-shadow-md  rounded transform transition duration-500 hover:scale-x-[-1]'
-                    src='/profile.png'
+                    className='m-auto contrast-125 brightness-75 drop-shadow-md'
+                    src='/Subject.png'
                     width='150'
                     height='150'
-                    alt='profile-picture'
-                    style={{
-                        border: '2px solid transparent',
-                        borderImage:
-                            'linear-gradient(to right, transparent, #f2f2f2) 1',
-                    }}
+                    alt='profile picture'
                 />
             </div>
             <p className='w-[85%] pt-12 md:pt-16 leading-relaxed text-justify text-[#A9AEC0] md:text-lg'>

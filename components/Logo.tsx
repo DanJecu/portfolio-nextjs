@@ -48,7 +48,7 @@ export const Logo: React.FC = () => {
                 )}
             </h1>
             <motion.h2
-                className='pt-1 text-2xl text-center text-[#a9aec0] font-thin md:text-3xl lg:text-4xl xl:text-5xl'
+                className='pt-1 text-2xl text-center text-[#a9aec0] font-light md:text-3xl lg:text-4xl xl:text-5xl'
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 2.8, ease: 'easeOut', duration: 0.7 }}
