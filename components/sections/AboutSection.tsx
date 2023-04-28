@@ -8,16 +8,16 @@ export const AboutSection: React.FC = () => {
                 <h2 className=' font-bold text-2xl pr-4'>About</h2>
                 <div className='h-[1.5px] bg-white flex-1'></div>
             </div>
-            <div className='pt-5 w-3/4 h-44'>
+            <div className='relative'>
                 <Image
-                    className='m-auto contrast-125 brightness-75 drop-shadow-md'
+                    className='m-auto rounded-3xl contrast-125 brightness-75 drop-shadow-md mask-image-gradient '
                     src='/Subject.png'
-                    width='150'
-                    height='150'
+                    width='250'
+                    height='250'
                     alt='profile picture'
                 />
             </div>
-            <p className='w-[85%] pt-12 md:pt-16 leading-relaxed text-justify text-[#A9AEC0] md:text-lg'>
+            <p className='w-[85%] pt-10 md:pt-16 leading-loose text-lg text-center text-[#A9AEC0] md:text-lg'>
                 Deeply invested in the life-long learning mentality, I&#39;m a
                 full-stack developer who carries a keen eye for design in an
                 user-first approach. My focus is in creating responsive layouts
@@ -25,18 +25,6 @@ export const AboutSection: React.FC = () => {
                 background as a data analyst, I&#39;m well acquainted to
                 bringing out solutions to complex problems.
             </p>
-            <div className='my-[30px] md:pt-10'>
-                <h1 className='text-center font-bold opacity-90 text-shadow-lg'>
-                    I am a
-                </h1>
-
-                <TextScroll
-                    text='Full Stack Developer &middot; '
-                    direction='left'
-                />
-                <TextScroll text='Life Student &middot; ' direction='right' />
-                <TextScroll text='Cool Millenial &middot; ' direction='left' />
-            </div>
         </section>
     );
 };

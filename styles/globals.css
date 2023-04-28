@@ -18,3 +18,48 @@ h1,
 h2 {
     font-family: 'Montserrat', 'cursive';
 }
+
+.mask-image-gradient {
+    -webkit-mask-image: linear-gradient(
+            to right,
+            transparent,
+            #1f2028 15%,
+            #1f2028 85%,
+            transparent
+        ),
+        linear-gradient(
+            to bottom,
+            transparent,
+            #1f2028 10%,
+            #1f2028 10%,
+            transparent
+        );
+    mask-image: linear-gradient(
+            to right,
+            transparent,
+            #1f2028 15%,
+            #1f2028 85%,
+            transparent
+        ),
+        linear-gradient(
+            to bottom,
+            transparent,
+            #1f2028 100%,
+            #1f2028 15%,
+            transparent
+        );
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        #1f2028 0%,
+        #1f2028 87%,
+        transparent
+    );
+    mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        #1f2028 0%,
+        #1f2028 20%,
+        transparent
+    );
+}
