@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { TextScroll } from '../TextScroll/TextScroll';
 
 export const AboutSection: React.FC = () => {
     return (
@@ -10,8 +9,8 @@ export const AboutSection: React.FC = () => {
             </div>
             <div className='relative'>
                 <Image
-                    className='m-auto rounded-3xl contrast-125 brightness-75 drop-shadow-md mask-image-gradient '
-                    src='/Subject.png'
+                    className='m-auto rounded-3xl saturate-150 drop-shadow-md  mask-image-gradient '
+                    src='/profile.png'
                     width='250'
                     height='250'
                     alt='profile picture'
