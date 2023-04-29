@@ -16,50 +16,50 @@ section {
 
 h1,
 h2 {
-    font-family: 'Montserrat', 'cursive';
+    font-family: 'Montserrat', 'sans-serif';
 }
 
 .mask-image-gradient {
     -webkit-mask-image: linear-gradient(
-            to left,
-            blur(10px),
+            to right,
+            transparent,
             #1f2028 15%,
             #1f2028 85%,
-            blur(10px)
+            transparent
         ),
         linear-gradient(
             to bottom,
-            blur(10px),
+            transparent,
             #1f2028 10%,
             #1f2028 10%,
-            blur(10px)
+            transparent
         );
     mask-image: linear-gradient(
-            to left,
-            blur(10px),
+            to right,
+            transparent,
             #1f2028 15%,
             #1f2028 85%,
-            blur(10px)
+            transparent
         ),
         linear-gradient(
             to bottom,
-            blur(10px),
-            #1f2028 100%,
-            #1f2028 15%,
-            blur(10px)
+            transparent,
+            #1f2028 10%,
+            #1f2028 85%,
+            transparent
         );
     -webkit-mask-image: linear-gradient(
         to bottom,
-        blur(10px),
+        transparent,
         #1f2028 0%,
         #1f2028 87%,
-        blur(10px)
+        transparent
     );
     mask-image: linear-gradient(
         to bottom,
-        blur(10px),
+        transparent,
         #1f2028 0%,
-        #1f2028 20%,
-        blur(10px)
+        #1f2028 87%,
+        transparent
     );
 }
