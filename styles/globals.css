@@ -21,45 +21,45 @@ h2 {
 
 .mask-image-gradient {
     -webkit-mask-image: linear-gradient(
-            to right,
-            transparent,
+            to left,
+            blur(10px),
             #1f2028 15%,
             #1f2028 85%,
-            transparent
+            blur(10px)
         ),
         linear-gradient(
             to bottom,
-            transparent,
+            blur(10px),
             #1f2028 10%,
             #1f2028 10%,
-            transparent
+            blur(10px)
         );
     mask-image: linear-gradient(
-            to right,
-            transparent,
+            to left,
+            blur(10px),
             #1f2028 15%,
             #1f2028 85%,
-            transparent
+            blur(10px)
         ),
         linear-gradient(
             to bottom,
-            transparent,
+            blur(10px),
             #1f2028 100%,
             #1f2028 15%,
-            transparent
+            blur(10px)
         );
     -webkit-mask-image: linear-gradient(
         to bottom,
-        transparent,
+        blur(10px),
         #1f2028 0%,
         #1f2028 87%,
-        transparent
+        blur(10px)
     );
     mask-image: linear-gradient(
         to bottom,
-        transparent,
+        blur(10px),
         #1f2028 0%,
         #1f2028 20%,
-        transparent
+        blur(10px)
     );
 }

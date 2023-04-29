@@ -11,6 +11,9 @@ module.exports = {
             fontFamily: {
                 general: ['Cabin', 'sans-serif'],
             },
+            colors: {
+                card: '#2E3039',
+            },
         },
     },
     plugins: [],

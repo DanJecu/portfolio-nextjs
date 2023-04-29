@@ -9,6 +9,7 @@ export const AboutSection: React.FC = () => {
             </div>
             <div className='relative'>
                 <Image
+                    key='1'
                     className='m-auto rounded-3xl saturate-150 drop-shadow-md  mask-image-gradient '
                     src='/profile.png'
                     width='250'
