@@ -19,7 +19,7 @@ export const AboutSection: React.FC = () => {
             className='m-auto flex w-[95%] flex-col items-center justify-center text-white sm:w-[80%]'
             style={style}
         >
-            <div className='mr-auto flex w-[95%] items-center p-7 '>
+            <div className='flex w-[95%] items-center p-7 '>
                 <h2 className='pr-4 text-2xl font-bold'>About</h2>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </div>
