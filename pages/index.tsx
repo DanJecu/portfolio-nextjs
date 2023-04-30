@@ -11,7 +11,7 @@ export default function Home() {
             <Head>
                 <title>Dan Jecu</title>
             </Head>
-            <main>
+            <main className='overflow-hidden'>
                 <HeroSection />
                 <AboutSection />
             </main>

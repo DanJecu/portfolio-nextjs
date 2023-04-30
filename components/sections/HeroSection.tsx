@@ -1,11 +1,10 @@
 import Image from 'next/image';
 import { Logo } from '../Logo';
-import { motion } from 'framer-motion';
 
 export const HeroSection: React.FC = () => {
     return (
-        <section className='flex flex-col justify-center items-center w-[90%] m-auto'>
-            <div className='flex my-auto text-white font-bold '>
+        <section className='m-auto flex w-[90%] flex-col items-center justify-center'>
+            <div className='my-auto flex font-bold text-white '>
                 <Logo />
             </div>
             <Image
@@ -13,7 +12,7 @@ export const HeroSection: React.FC = () => {
                 src='/down-arrow.png'
                 width='50'
                 height='50'
-                className='self-end mx-auto filter invert animate-bounce opacity-60 pb-12'
+                className='mx-auto animate-bounce self-end pb-12 opacity-60 invert filter'
             />
         </section>
     );
