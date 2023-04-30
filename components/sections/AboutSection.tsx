@@ -33,7 +33,7 @@ export const AboutSection: React.FC = () => {
                     alt='profile picture'
                 />
             </div>
-            <p className='w-[85%] pt-10 text-center text-[0.94rem] leading-relaxed text-[#A9AEC0] md:pt-16 md:text-lg lg:pt-0'>
+            <p className='w-[85%] pt-10 text-center text-[0.94rem] leading-relaxed text-[#A9AEC0] md:pt-16 md:text-lg'>
                 Deeply invested in the life-long learning mentality, I&#39;m a
                 full-stack developer who carries a keen eye for design in an
                 user-first approach. My focus is in creating responsive layouts
