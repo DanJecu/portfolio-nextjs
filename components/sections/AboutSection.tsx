@@ -16,10 +16,10 @@ export const AboutSection: React.FC = () => {
 
     return (
         <section
-            className='m-auto flex flex-col items-center text-white sm:w-[90%] lg:grid lg:w-[80%] lg:grid-cols-2 lg:grid-rows-[20%_80%] lg:justify-items-center'
+            className='m-auto flex flex-col items-center text-white sm:w-[90%]'
             style={style}
         >
-            <div className='mr-auto flex w-[95%] items-center self-start p-7  lg:col-end-[-1] lg:w-[80%] lg:p-0 lg:pt-14'>
+            <div className='mr-auto flex w-[95%] items-center  p-7 '>
                 <h2 className='pr-4 text-2xl font-bold'>About</h2>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </div>
