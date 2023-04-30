@@ -23,7 +23,7 @@ export const AboutSection: React.FC = () => {
                 <h2 className='pr-4 text-2xl font-bold'>About</h2>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </div>
-            <div className='relative' ref={ref}>
+            <div className='relative'>
                 <Image
                     key='1'
                     className='mask-image-gradient m-auto rounded-3xl drop-shadow-md  saturate-150 md:h-[90%] md:w-[90%]'
@@ -33,7 +33,10 @@ export const AboutSection: React.FC = () => {
                     alt='profile picture'
                 />
             </div>
-            <p className='w-[85%] pt-10 text-center text-[0.94rem] leading-relaxed text-[#A9AEC0] md:pt-16 md:text-lg'>
+            <p
+                className='w-[85%] pt-10 text-center text-[0.94rem] leading-relaxed text-[#A9AEC0] md:pt-16 md:text-lg'
+                ref={ref}
+            >
                 Deeply invested in the life-long learning mentality, I&#39;m a
                 full-stack developer who carries a keen eye for design in an
                 user-first approach. My focus is in creating responsive layouts
