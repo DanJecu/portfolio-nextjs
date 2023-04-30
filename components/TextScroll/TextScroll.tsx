@@ -14,16 +14,8 @@ export function TextScroll({ text, direction }: Props): ReactElement {
                     direction === 'left' ? styles.toLeft : styles.toRight
                 }
             >
-                {Array(4).fill(text).join(' ')}
+                {Array(10).fill(text).join(' ')}
             </span>
         </div>
     );
 }
-
-<div className='my-[30px] md:pt-10'>
-    <h1 className='text-center font-bold opacity-90 text-shadow-lg'>I am a</h1>
-
-    <TextScroll text='Full Stack Developer &middot; ' direction='left' />
-    <TextScroll text='Life Student &middot; ' direction='right' />
-    <TextScroll text='Cool Millenial &middot; ' direction='left' />
-</div>;

@@ -11,7 +11,10 @@ export default function Home() {
             <Head>
                 <title>Dan Jecu</title>
             </Head>
-            <main className='overflow-hidden'>
+            <main className=' overflow-hidden'>
+                <nav className='fixed top-0 h-7 w-full bg-indigo-500 text-center text-lg text-white opacity-50'>
+                    ⚠️ This website is currently under construction 👷‍♂️
+                </nav>
                 <HeroSection />
                 <AboutSection />
             </main>

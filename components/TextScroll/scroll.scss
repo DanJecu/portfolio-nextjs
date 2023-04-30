@@ -1,19 +1,9 @@
-@mixin moveGradient {
-    animation: moveGradientAnim 8s ease-in-out infinite;
-}
-
-@keyframes moveGradientAnim {
-    50% {
-        background-position: 100% 50%;
-    }
-}
-
 @mixin scrollTextToLeft {
-    animation: scrollText 8s linear infinite;
+    animation: scrollText 20s linear infinite;
 }
 
 @mixin scrollTextToRight {
-    animation: scrollText 8s linear infinite reverse;
+    animation: scrollText 20s linear infinite reverse;
 }
 
 @keyframes scrollText {
