@@ -14,7 +14,6 @@ export default function Home() {
             <main>
                 <HeroSection />
                 <AboutSection />
-                <SkillsSection />
             </main>
         </>
     );
