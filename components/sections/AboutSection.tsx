@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import Image from 'next/image';
-import profilePic from '../../public/profile.png';
+import profilePic from '../../public/subject.png';
 import { useInView } from 'framer-motion';
 import { TextScroll } from '../TextScroll/TextScroll';
 
