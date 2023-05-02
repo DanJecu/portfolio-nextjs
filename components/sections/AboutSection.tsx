@@ -27,7 +27,7 @@ export const AboutSection: React.FC = () => {
                 <Image
                     key='1'
                     className='mask-image-gradient m-auto rounded-3xl drop-shadow-md saturate-150  md:h-[90%] md:w-[90%] lg:h-full  lg:w-full lg:object-cover'
-                    src='/profileHero.png'
+                    src='./profileHero.png'
                     width='250'
                     height='250'
                     alt='profile picture'
@@ -35,7 +35,7 @@ export const AboutSection: React.FC = () => {
             </div>
             <div className='w-[85%] pt-10 md:pt-16 lg:flex lg:flex-col lg:items-stretch lg:justify-center lg:pt-0'>
                 <p
-                    className=' text-center text-[0.94rem] leading-relaxed text-[#A9AEC0] md:text-lg lg:text-justify lg:text-lg lg:leading-loose'
+                    className='text-center text-[0.94rem] leading-relaxed text-[#A9AEC0] md:text-lg lg:text-justify lg:text-lg lg:leading-loose'
                     ref={ref}
                 >
                     Deeply invested in the life-long learning mentality, I&#39;m
