@@ -16,7 +16,7 @@ export const AboutSection: React.FC = () => {
 
     return (
         <section
-            className='m-auto flex w-[95%] flex-col items-center justify-center text-white sm:w-[80%] lg:grid lg:w-[90%] lg:grid-cols-[1fr_1.2fr] lg:grid-rows-[1fr_6fr] lg:items-start lg:justify-items-end 2xl:h-[60%]'
+            className='m-auto flex w-[95%] flex-col items-center justify-center text-white sm:w-[80%] lg:grid lg:w-[90%] lg:grid-cols-[1fr_1.2fr] lg:grid-rows-[1fr_6fr] lg:items-start lg:justify-items-end 2xl:h-[65%]'
             style={style}
         >
             <div className='flex w-[95%] items-center p-7  lg:col-start-2  lg:mt-auto lg:w-[100%] lg:p-2'>
