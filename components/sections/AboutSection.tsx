@@ -27,7 +27,7 @@ export const AboutSection: React.FC = () => {
                 <Image
                     key='1'
                     className='mask-image-gradient m-auto rounded-3xl drop-shadow-md saturate-150  md:h-[90%] md:w-[90%] lg:h-full  lg:w-full lg:object-cover'
-                    src={profilePic}
+                    src='/profileHero.png'
                     width='250'
                     height='250'
                     alt='profile picture'
