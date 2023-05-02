@@ -45,7 +45,7 @@ export const AboutSection: React.FC = () => {
                     from my background as a data analyst, I&#39;m well
                     acquainted to bringing out solutions to complex problems.
                 </p>
-                <div className='my-[30px] hidden  lg:m-auto lg:inline lg:pt-24 xl:pt-32 xl:text-xl'>
+                <div className='my-[30px] hidden  lg:m-auto lg:inline lg:pt-24 xl:pt-48 xl:text-xl'>
                     <h1 className='text-shadow-lg text-center font-bold opacity-90'>
                         I am a
                     </h1>
