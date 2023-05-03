@@ -5,17 +5,17 @@ export const SkillsSection: React.FC = () => {
                 <h2 className='pr-4 text-2xl font-bold lg:text-xl'>Skills</h2>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </span>
-            <div className='pb-6 text-center'>
+            <div className='pb-6 text-center drop-shadow-sm'>
                 <h4 className='pb-1 text-xl'>Frontend</h4>
-                <div className='h-96 rounded-lg bg-card p-2 shadow'></div>
+                <div className='h-96 rounded-lg bg-card p-2 shadow drop-shadow-sm'></div>
             </div>
-            <div className=' pb-6 text-center'>
+            <div className='pb-6 text-center'>
                 <h4 className='pb-1 text-xl'>Backend</h4>
                 <div className='h-96 rounded-lg bg-card p-2 shadow'></div>
             </div>
             <div className='pb-6 text-center'>
                 <h4 className='pb-1 text-xl'>Miscellaneous</h4>
-                <div className='h-96 rounded-lg bg-card p-2 shadow'></div>
+                <div className='h-96 rounded-lg bg-card p-2 shadow drop-shadow-sm'></div>
             </div>
         </section>
     );
