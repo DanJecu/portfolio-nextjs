@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export const SkillsSection: React.FC = () => {
     return (
         <section className='flex h-auto flex-col justify-between gap-4 p-8 text-white'>
@@ -7,7 +9,17 @@ export const SkillsSection: React.FC = () => {
             </span>
             <div className='pb-6 text-center drop-shadow-sm'>
                 <h4 className='pb-1 text-xl'>Frontend</h4>
-                <div className='h-96 rounded-lg bg-card p-2 shadow drop-shadow-sm'></div>
+                <div className='flex h-96 items-center justify-center rounded-lg bg-card p-2 shadow drop-shadow-sm'>
+                    <span className='flex flex-col items-center text-center'>
+                        <Image
+                            src='/icons/frontend/HTML.svg'
+                            alt='html'
+                            height='35'
+                            width='35'
+                        />
+                        <h5>HTML</h5>
+                    </span>
+                </div>
             </div>
             <div className='pb-6 text-center'>
                 <h4 className='pb-1 text-xl'>Backend</h4>
