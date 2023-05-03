@@ -26,7 +26,7 @@ export const AboutSection: React.FC = () => {
             <div className='relative lg:row-span-2 lg:row-start-1 lg:h-[55%]  lg:place-self-center lg:justify-self-center '>
                 <Image
                     key='1'
-                    className='mask-image-gradient m-auto rounded-3xl drop-shadow-md saturate-150  md:h-[90%] md:w-[90%] lg:h-full  lg:w-full '
+                    className='mask-image-gradient m-auto rounded-3xl lg:scale-125 2xl:scale-150   '
                     src='/profileHero.PNG'
                     width='250'
                     height='250'
