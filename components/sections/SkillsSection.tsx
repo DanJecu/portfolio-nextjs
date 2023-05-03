@@ -7,15 +7,15 @@ export const SkillsSection: React.FC = () => {
             </span>
             <div className='pb-6 text-center'>
                 <h4 className='pb-1 text-xl'>Frontend</h4>
-                <div className='h-96 rounded-lg bg-card p-2'></div>
+                <div className='h-96 rounded-lg bg-card p-2 shadow'></div>
             </div>
             <div className=' pb-6 text-center'>
                 <h4 className='pb-1 text-xl'>Backend</h4>
-                <div className='h-96 rounded-lg bg-card p-2'></div>
+                <div className='h-96 rounded-lg bg-card p-2 shadow'></div>
             </div>
             <div className='pb-6 text-center'>
                 <h4 className='pb-1 text-xl'>Miscellaneous</h4>
-                <div className='h-96 rounded-lg bg-card p-2'></div>
+                <div className='h-96 rounded-lg bg-card p-2 shadow'></div>
             </div>
         </section>
     );
