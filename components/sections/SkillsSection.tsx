@@ -23,11 +23,31 @@ export const SkillsSection: React.FC = () => {
             </div>
             <div className='pb-6 text-center'>
                 <h4 className='pb-1 text-xl'>Backend</h4>
-                <div className='h-96 rounded-lg bg-card p-2 shadow'></div>
+                <div className='flex h-96 items-center justify-center rounded-lg bg-card p-2 shadow drop-shadow-sm'>
+                    <span className='flex flex-col items-center text-center'>
+                        <Image
+                            src='/icons/backend/Django.svg'
+                            alt='html'
+                            height='35'
+                            width='35'
+                        />
+                        <h5>Django</h5>
+                    </span>
+                </div>
             </div>
             <div className='pb-6 text-center'>
                 <h4 className='pb-1 text-xl'>Miscellaneous</h4>
-                <div className='h-96 rounded-lg bg-card p-2 shadow drop-shadow-sm'></div>
+                <div className='flex h-96 items-center justify-center rounded-lg bg-card p-2 shadow drop-shadow-sm'>
+                    <span className='flex flex-col items-center text-center'>
+                        <Image
+                            src='/icons/misc/Github.svg'
+                            alt='html'
+                            height='35'
+                            width='35'
+                        />
+                        <h5>Github</h5>
+                    </span>
+                </div>
             </div>
         </section>
     );
