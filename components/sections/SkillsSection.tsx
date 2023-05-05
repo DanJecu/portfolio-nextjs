@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { frontend } from '@/utils/icons';
+import { frontend, backend, misc } from '@/utils/icons';
 import { SkillIcons } from '../SkillIcons';
 
 export const SkillsSection: React.FC = () => (
@@ -8,38 +8,22 @@ export const SkillsSection: React.FC = () => (
             <h2 className='pr-4 text-2xl font-bold lg:text-xl'>Skills</h2>
             <div className='h-[1.5px] flex-1 bg-white'></div>
         </span>
-        <div className='pb-6 text-center drop-shadow-sm'>
+        <div className='h-auto pb-6 text-center drop-shadow-sm'>
             <h4 className='pb-1 text-xl'>Frontend</h4>
             <div className='grid grid-cols-3 grid-rows-4 rounded-lg  bg-card px-6 py-5 shadow drop-shadow-sm'>
                 <SkillIcons skill={frontend} />
             </div>
         </div>
-        <div className='pb-6 text-center'>
+        <div className='h-auto pb-6 text-center drop-shadow-sm'>
             <h4 className='pb-1 text-xl'>Backend</h4>
-            <div className='grid grid-cols-3 grid-rows-4 rounded-lg  bg-card px-6 py-5 shadow drop-shadow-sm'>
-                <span className='flex flex-col items-center text-center'>
-                    <Image
-                        src='/icons/backend/Django.svg'
-                        alt='html'
-                        height='35'
-                        width='35'
-                    />
-                    <h5>Django</h5>
-                </span>
+            <div className='grid grid-cols-3 grid-rows-4 gap-y-5 rounded-lg  bg-card px-6 py-5 shadow drop-shadow-sm'>
+                <SkillIcons skill={backend} />
             </div>
         </div>
-        <div className='pb-6 text-center'>
+        <div className='pb-6 text-center drop-shadow-sm'>
             <h4 className='pb-1 text-xl'>Miscellaneous</h4>
             <div className='grid grid-cols-3 grid-rows-4 rounded-lg  bg-card px-6 py-5 shadow drop-shadow-sm'>
-                <span className='flex flex-col items-center text-center'>
-                    <Image
-                        src='/icons/misc/Github.svg'
-                        alt='html'
-                        height='35'
-                        width='35'
-                    />
-                    <h5>Github</h5>
-                </span>
+                <SkillIcons skill={misc} />
             </div>
         </div>
     </section>
