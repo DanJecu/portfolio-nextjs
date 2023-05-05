@@ -11,7 +11,8 @@ export const frontend = {
     TailwindCSS: '/icons/frontend/TailwindCSS.svg',
     Sass: '/icons/frontend/Sass.svg',
     MUI: '/icons/frontend/MUI.svg',
-    StyledComponents: '/icons/frontend/StyledComponents.svg',
+    'Styled Components': '/icons/frontend/StyledComponents.svg',
+    'Framer Motion': '/icons/frontend/FramerMotion.svg',
 };
 
 const backend = {};
