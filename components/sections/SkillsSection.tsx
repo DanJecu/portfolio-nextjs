@@ -13,7 +13,7 @@ export const SkillsSection: React.FC = () => {
                 <div className='flex h-96 flex-wrap items-center justify-between rounded-lg bg-card p-2 shadow drop-shadow-sm'>
                     {Object.entries(frontend).map((value: [string, string]) => (
                         <span
-                            className='flex w-fit flex-col items-center px-10 text-center'
+                            className='flex w-fit flex-col items-center pr-6 text-center'
                             key={value[0]}
                         >
                             <Image
