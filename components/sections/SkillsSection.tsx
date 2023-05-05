@@ -10,19 +10,19 @@ export const SkillsSection: React.FC = () => {
             </span>
             <div className='pb-6 text-center drop-shadow-sm'>
                 <h4 className='pb-1 text-xl'>Frontend</h4>
-                <div className='flex h-96 flex-wrap items-center justify-between rounded-lg bg-card p-2 shadow drop-shadow-sm'>
+                <div className='flex h-96 flex-wrap items-center justify-between gap-5 rounded-lg  bg-card px-6 py-5 shadow drop-shadow-sm'>
                     {Object.entries(frontend).map((value: [string, string]) => (
                         <span
-                            className='flex w-fit flex-col items-center pr-6 text-center'
+                            className='flex flex-col items-center text-center'
                             key={value[0]}
                         >
                             <Image
                                 src={value[1]}
                                 alt={value[0]}
-                                height='35'
-                                width='35'
+                                height='50'
+                                width='50'
                             />
-                            <h6 className='text-xs'>{value[0]}</h6>
+                            <h6 className='pt-1 text-xs'>{value[0]}</h6>
                         </span>
                     ))}
                 </div>

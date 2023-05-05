@@ -3,12 +3,13 @@
 export const frontend = {
     HTML: '/icons/frontend/HTML.svg',
     CSS: '/icons/frontend/CSS.svg',
+    Javascript: '/icons/frontend/Javascript.svg',
     Typescript: '/icons/frontend/Typescript.svg',
-    Emotion: '/icons/frontend/Emotion.svg',
-    NextJS: '/icons/frontend/NextJS.svg',
     React: '/icons/frontend/React.svg',
-    Sass: '/icons/frontend/Sass.svg',
+    NextJS: '/icons/frontend/NextJS.svg',
+    Emotion: '/icons/frontend/Emotion.svg',
     TailwindCSS: '/icons/frontend/TailwindCSS.svg',
+    Sass: '/icons/frontend/Sass.svg',
     MUI: '/icons/frontend/MUI.svg',
     StyledComponents: '/icons/frontend/StyledComponents.svg',
 };
