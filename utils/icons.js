@@ -3,8 +3,8 @@
 export const frontend = {
     HTML: '/icons/frontend/HTML.svg',
     CSS: '/icons/frontend/CSS.svg',
-    Javascript: '/icons/frontend/Javascript.svg',
-    Typescript: '/icons/frontend/Typescript.svg',
+    Javascript: '/icons/frontend/JavaScript.svg',
+    Typescript: '/icons/frontend/TypeScript.svg',
     React: '/icons/frontend/React.svg',
     NextJS: '/icons/frontend/NextJS.svg',
     MySQL: '/icons/frontend/Emotion.svg',
