@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { frontend } from '@/utils/icons';
 
 export const SkillsSection: React.FC = () => {
     return (
@@ -9,16 +10,22 @@ export const SkillsSection: React.FC = () => {
             </span>
             <div className='pb-6 text-center drop-shadow-sm'>
                 <h4 className='pb-1 text-xl'>Frontend</h4>
-                <div className='flex h-96 items-center justify-center rounded-lg bg-card p-2 shadow drop-shadow-sm'>
-                    <span className='flex flex-col items-center text-center'>
-                        <Image
-                            src='/icons/frontend/HTML.svg'
-                            alt='html'
-                            height='35'
-                            width='35'
-                        />
-                        <h5>HTML</h5>
-                    </span>
+                <div className='flex h-96 flex-wrap items-center justify-stretch rounded-lg bg-card p-2 shadow drop-shadow-sm'>
+                    {Object.entries(frontend).map((value: [string, string]) => (
+                        <span
+                            className='flex flex-col items-center text-center'
+                            key={value[0]}
+                        >
+                            <Image
+                                src={value[1]} // Pass the second element of the value array as src
+                                alt={value[0]}
+                                height='35'
+                                width='35'
+                            />
+                            <h6 className='text-sm'>{value[0]}</h6>{' '}
+                            {/* Use value[0] as the key name */}
+                        </span>
+                    ))}
                 </div>
             </div>
             <div className='pb-6 text-center'>
