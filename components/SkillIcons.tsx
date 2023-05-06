@@ -9,14 +9,14 @@ export const SkillIcons: React.FC<SkillIconsProps> = ({ skill }) => {
         <>
             {Object.entries(skill).map((value: [string, string]) => (
                 <span
-                    className='flex flex-col flex-wrap items-center text-center'
+                    className='flex h-16 w-16 flex-col items-center justify-start text-center'
                     key={value[0]}
                 >
                     <Image
                         src={value[1]}
                         alt={value[0]}
-                        height='50'
-                        width='50'
+                        height='45'
+                        width='45'
                     />
                     {value[0]
                         .split(' ')
