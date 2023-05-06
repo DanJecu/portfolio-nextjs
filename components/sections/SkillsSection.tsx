@@ -1,5 +1,4 @@
 import { frontend, backend, misc } from '@/utils/icons';
-import { SkillIcons } from '../SkillIcons';
 import { SkillCard } from '../SkillCard';
 
 export const SkillsSection: React.FC = () => (

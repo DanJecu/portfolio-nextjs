@@ -16,7 +16,7 @@ export const AboutSection: React.FC = () => {
 
     return (
         <section
-            className='m-auto flex w-[95%] flex-col items-center justify-center text-white sm:w-[80%] lg:grid lg:w-[90%] lg:grid-cols-[1fr_1.2fr] lg:grid-rows-[1fr_6fr] lg:items-start lg:justify-items-end 2xl:h-[65%]'
+            className='m-auto flex w-[95%] flex-col items-center justify-center text-white sm:w-[100%] lg:grid lg:w-[90%] lg:grid-cols-[1fr_1.2fr] lg:grid-rows-[1fr_6fr] lg:items-start lg:justify-items-end 2xl:h-[65%]'
             style={style}
         >
             <div className='flex w-[95%] items-center p-7  lg:col-start-2  lg:mt-auto lg:w-[100%] lg:p-2'>
@@ -26,11 +26,13 @@ export const AboutSection: React.FC = () => {
             <div className='relative lg:row-span-2 lg:row-start-1 lg:h-[55%]  lg:place-self-center lg:justify-self-center '>
                 <Image
                     key='1'
-                    className='mask-image-gradient m-auto rounded-3xl lg:scale-125 2xl:scale-150   '
+                    className='mask-image-gradient m-auto rounded-3xl lg:scale-125 2xl:scale-150'
                     src='/profileHero.PNG'
-                    width='250'
-                    height='250'
+                    width='180'
+                    height='180'
                     alt='profile picture'
+                    priority
+                    style={{ width: 'auto', height: 'auto' }}
                 />
             </div>
             <div className='w-[85%] pt-10 md:pt-16 lg:flex lg:flex-col lg:items-stretch lg:justify-center lg:pt-0'>
