@@ -12,8 +12,10 @@ export default function Home() {
                 <title>Dan Jecu</title>
             </Head>
             <main className='overflow-hidden'>
-                <nav className='fixed top-0 h-7 w-full bg-[#D08FC7] text-center text-lg text-black opacity-70 md:text-xs'>
-                    ⚠️ This website is currently under construction
+                <nav className='fixed top-0 flex h-5 w-full items-center justify-center bg-[#D08FC7] text-xs text-black opacity-70 lg:h-7 lg:text-lg'>
+                    <h6 className='my-auto'>
+                        ⚠️ This website is currently under construction
+                    </h6>
                 </nav>
                 <HeroSection />
                 <AboutSection />

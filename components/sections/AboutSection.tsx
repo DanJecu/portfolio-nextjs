@@ -35,7 +35,7 @@ export const AboutSection: React.FC = () => {
             </div>
             <div className='w-[85%] pt-10 md:pt-16 lg:flex lg:flex-col lg:items-stretch lg:justify-center lg:pt-0'>
                 <p
-                    className='text-center text-[0.94rem] leading-relaxed text-[#A9AEC0] md:text-lg lg:text-justify lg:text-lg lg:leading-loose'
+                    className='text-center text-[0.94rem] leading-relaxed text-secondary md:text-lg lg:text-justify lg:text-lg lg:leading-loose'
                     ref={ref}
                 >
                     Deeply invested in the life-long learning mentality, I&#39;m
