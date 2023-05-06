@@ -16,17 +16,17 @@ export const frontend = {
 };
 
 export const backend = {
-    Django: '/icons/backend/Django.svg',
+    NodeJS: '/icons/backend/NodeJS.svg',
     ExpressJS: '/icons/backend/ExpressJS.svg',
-    Firebase: '/icons/backend/Firebase.svg',
+    NestJS: '/icons/backend/NestJS.svg',
+    Python: '/icons/backend/Python.svg',
+    Django: '/icons/backend/Django.svg',
     Flask: '/icons/backend/Flask.svg',
     GraphQL: '/icons/backend/GraphQL.svg',
+    Firebase: '/icons/backend/Firebase.svg',
     MongoDB: '/icons/backend/MongoDB.svg',
-    MySQL: '/icons/backend/MySQL.svg',
-    NestJS: '/icons/backend/NestJS.svg',
-    NodeJS: '/icons/backend/NodeJS.svg',
     PostgreSQL: '/icons/backend/PostgreSQL.svg',
-    Python: '/icons/backend/Python.svg',
+    MySQL: '/icons/backend/MySQL.svg',
 };
 
 export const misc = {
