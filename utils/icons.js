@@ -7,7 +7,7 @@ export const frontend = {
     Typescript: '/icons/frontend/TypeScript.svg',
     React: '/icons/frontend/React.svg',
     NextJS: '/icons/frontend/NextJS.svg',
-    MySQL: '/icons/frontend/Emotion.svg',
+    Emotion: '/icons/frontend/Emotion.svg',
     TailwindCSS: '/icons/frontend/TailwindCSS.svg',
     Sass: '/icons/frontend/Sass.svg',
     MUI: '/icons/frontend/MUI.svg',
