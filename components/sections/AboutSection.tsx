@@ -19,17 +19,17 @@ export const AboutSection: React.FC = () => {
             className='m-auto flex w-[95%] flex-col items-center justify-center text-white sm:w-[100%] lg:grid lg:w-[90%] lg:grid-cols-[1fr_1.2fr] lg:grid-rows-[1fr_6fr] lg:items-start lg:justify-items-end 2xl:h-[65%]'
             style={style}
         >
-            <div className='flex w-[95%] items-center p-7  lg:col-start-2  lg:mt-auto lg:w-[100%] lg:p-2'>
+            <div className='flex w-[95%] items-center px-7 pb-0 pt-7  lg:col-start-2  lg:mt-auto lg:w-[100%] lg:p-2'>
                 <h2 className='pr-4 text-2xl font-bold lg:text-xl'>About</h2>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </div>
-            <div className='relative lg:row-span-2 lg:row-start-1 lg:h-[55%] lg:place-self-center lg:justify-self-center '>
+            <div className='mask-image-gradient relative  h-[24rem] lg:row-span-2 lg:row-start-1 lg:h-[55%] lg:place-self-center lg:justify-self-center '>
                 <Image
                     key='1'
-                    className='mask-image-gradient object-fit m-auto w-auto rounded-3xl  pb-6 lg:h-[100%]  2xl:scale-150'
+                    className='mask-image-gradient m-auto w-auto rounded-3xl object-cover  pb-3 lg:h-[100%]  2xl:scale-150'
                     src='/profileHero.PNG'
-                    width='250'
-                    height='250'
+                    width='200'
+                    height='200'
                     alt='profile picture'
                     priority
                 />
