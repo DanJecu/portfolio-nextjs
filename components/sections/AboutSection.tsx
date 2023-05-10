@@ -24,7 +24,7 @@ export const AboutSection: React.FC = () => {
                 <h2 className='pr-4 text-2xl font-bold lg:text-xl'>About</h2>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </div>
-            <div className='relative h-[40vh] pb-4 lg:row-span-2 lg:row-start-1 lg:h-[55%] lg:place-self-center lg:justify-self-center '>
+            <div className='relative h-[40vh] lg:row-span-2 lg:row-start-1 lg:h-[55%] lg:place-self-center lg:justify-self-center '>
                 <img
                     key='1'
                     className='mask-image-gradient max-h-full max-w-full rounded-3xl object-cover lg:h-[100%]  2xl:scale-150'
@@ -34,7 +34,7 @@ export const AboutSection: React.FC = () => {
                     height=''
                 />
             </div>
-            <div className='my-auto w-[85%]  md:pt-16 lg:flex lg:flex-col lg:items-stretch lg:justify-center lg:pt-0'>
+            <div className='my-auto w-[85%] pb-7  md:pt-16 lg:flex lg:flex-col lg:items-stretch lg:justify-center lg:pt-0'>
                 <p
                     className='text-center text-[0.94rem] leading-relaxed text-secondary md:text-lg lg:text-justify lg:text-lg lg:leading-loose'
                     ref={ref}
