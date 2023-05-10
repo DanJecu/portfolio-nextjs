@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useRef } from 'react';
 import Image from 'next/image';
 
@@ -23,28 +24,28 @@ export const AboutSection: React.FC = () => {
                 <h2 className='pr-4 text-2xl font-bold lg:text-xl'>About</h2>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </div>
-            <div className='mask-image-gradient relative  h-[24rem] lg:row-span-2 lg:row-start-1 lg:h-[55%] lg:place-self-center lg:justify-self-center '>
-                <Image
+            <div className='relative h-[40vh] pb-4 lg:row-span-2 lg:row-start-1 lg:h-[55%] lg:place-self-center lg:justify-self-center '>
+                <img
                     key='1'
-                    className='mask-image-gradient m-auto w-auto rounded-3xl object-cover  pb-3 lg:h-[100%]  2xl:scale-150'
+                    className='mask-image-gradient max-h-full max-w-full rounded-3xl object-cover lg:h-[100%]  2xl:scale-150'
                     src='/profileHero.PNG'
-                    width='200'
-                    height='200'
                     alt='profile picture'
-                    priority
+                    width=''
+                    height=''
                 />
             </div>
-            <div className='w-[85%] basis-1 pt-3 md:pt-16 lg:flex lg:flex-col lg:items-stretch lg:justify-center lg:pt-0'>
+            <div className='my-auto w-[85%]  md:pt-16 lg:flex lg:flex-col lg:items-stretch lg:justify-center lg:pt-0'>
                 <p
                     className='text-center text-[0.94rem] leading-relaxed text-secondary md:text-lg lg:text-justify lg:text-lg lg:leading-loose'
                     ref={ref}
                 >
-                    Deeply invested in the life-long learning mentality, I&#39;m
-                    a full-stack developer who carries a keen eye for design in
-                    an user-first approach. My focus is in creating responsive
-                    layouts on the JavaScript stack of React and NodeJS, and
-                    from my background as a data analyst, I&#39;m well
-                    acquainted to bringing out solutions to complex problems.
+                    I am a passionate self-taught full stack developer with a
+                    life-long learning mentality, dedicated to optimizing
+                    business operations through user-first design and custom
+                    software solutions. <br /> With a strong background in data
+                    analysis, I specialize in creating responsive layouts using
+                    the JavaScript stack of React and NodeJS, as well as
+                    Typescript, Python and SQL.
                 </p>
                 <div className='my-[30px] hidden  lg:m-auto lg:inline lg:pt-24 xl:pt-48 xl:text-xl'>
                     <h1 className='text-shadow-lg text-center font-bold opacity-90'>
