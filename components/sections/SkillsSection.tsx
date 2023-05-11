@@ -24,7 +24,7 @@ export const SkillsSection = () => {
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </span>
             <div
-                className='m-auto flex w-11/12 flex-col lg:h-4/5 lg:w-[100%] lg:flex-row lg:gap-10
+                className='m-auto flex w-11/12 flex-col lg:h-4/5 lg:w-[100%] lg:flex-row lg:pb-24 lg:gap-10
         '
                 ref={ref}
             >

@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import { useRef } from 'react';
-
 import { useInView } from 'framer-motion';
 import { TextScroll } from '../TextScroll/TextScroll';
 
@@ -26,7 +25,7 @@ export const AboutSection: React.FC = () => {
             <div className='relative h-[40vh] lg:row-span-2 lg:row-start-1 lg:h-[55%] lg:place-self-center lg:justify-self-center '>
                 <img
                     key='1'
-                    className='mask-image-gradient max-h-full max-w-full rounded-3xl object-cover lg:h-[100%]  2xl:scale-150'
+                    className='mask-image-gradient max-h-full max-w-full rounded-3xl object-cover lg:h-[100%]'
                     src='/profileHero.PNG'
                     alt='profile picture'
                     width=''
