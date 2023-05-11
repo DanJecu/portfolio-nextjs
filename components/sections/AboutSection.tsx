@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import { useRef } from 'react';
-import Image from 'next/image';
 
 import { useInView } from 'framer-motion';
 import { TextScroll } from '../TextScroll/TextScroll';
