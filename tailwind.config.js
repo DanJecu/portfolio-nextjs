@@ -13,6 +13,7 @@ module.exports = {
             },
             screens: {
                 'sm': '375px'
+                
             },
             colors: {
                 card: '#2E3039',
