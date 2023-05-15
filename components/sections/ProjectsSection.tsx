@@ -4,10 +4,10 @@ export const ProjectsSection: React.FC = () => {
     return (
         <section className='m-auto flex w-[95vw] flex-col'>
             <span className='flex w-[95%] items-center p-7 text-white lg:w-[50%] lg:px-12 lg:pb-12 lg:pt-24'>
-                <h2 className='pr-4 text-2xl font-bold'>Projects</h2>
+                <h2 className='pb-4 text-2xl font-bold'>Projects</h2>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </span>
-            <div className='relative m-auto h-[80vh] w-[90%] rounded-lg'>
+            <div className='relative m-auto h-[80vh] w-[80%] rounded-lg'>
                 <img
                     key='1'
                     className='h-full w-full rounded-lg object-fill lg:h-[100%]'
