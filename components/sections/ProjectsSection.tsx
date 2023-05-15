@@ -7,15 +7,27 @@ export const ProjectsSection: React.FC = () => {
                 <h2 className='pb-4 text-2xl font-bold'>Projects</h2>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </span>
-            <div className='relative m-auto h-[80vh] w-[80%] rounded-lg'>
-                <img
-                    key='1'
-                    className='h-full w-full rounded-lg object-fill lg:h-[100%]'
-                    src='./projects/mealShare1.png'
-                    alt='profile picture'
-                    width=''
-                    height=''
-                />
+            <div className='flex'>
+                <div className='relative m-auto h-[80vh] w-[80%] rounded-lg md:w-[38%]'>
+                    <img
+                        key='1'
+                        className='h-full w-full rounded-lg object-fill lg:h-[100%]'
+                        src='./projects/mealShare2.png'
+                        alt='profile picture'
+                        width=''
+                        height=''
+                    />
+                </div>
+                <div className='relative m-auto hidden h-[80vh] w-[80%] rounded-lg md:block md:w-[38%]'>
+                    <img
+                        key='1'
+                        className='h-full w-full rounded-lg object-fill lg:h-[100%]'
+                        src='./projects/mealShare1.png'
+                        alt='profile picture'
+                        width=''
+                        height=''
+                    />
+                </div>
             </div>
             <div>
                 <h2 className='pb-2 pt-4 text-center text-xl  text-zinc-200 '>
