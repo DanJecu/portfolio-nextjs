@@ -18,7 +18,7 @@ export const ProjectsSection: React.FC = () => {
                 />
             </div>
             <div>
-                <h2 className='pb-2 pt-4 text-center text-xl font-bold text-secondary '>
+                <h2 className='pb-2 pt-4 text-center text-xl  text-zinc-200 '>
                     Meal Sharing
                 </h2>
                 <div className='flex flex-wrap justify-center gap-3'>
@@ -76,6 +76,29 @@ export const ProjectsSection: React.FC = () => {
                         />
                         <h5 className='text-xs text-secondary'>PostgreSQL</h5>
                     </span>
+                </div>
+
+                <p className='m-auto w-11/12 pt-6 text-center text-sm font-light leading-5 tracking-wide text-secondary'>
+                    Fully featured meal booking system. Developed with React,
+                    with Node/Express and PostgreSQL on the backend.
+                </p>
+                <div className='flex justify-evenly pt-6 text-[1rem] text-white [&>*]:m-auto [&>*]:h-9 [&>*]:w-24 [&>*]:rounded-lg [&>*]:border'>
+                    <button>
+                        <a
+                            target='_blank'
+                            href='https://github.com/danJecu/meal-sharing-app'
+                        >
+                            SOURCE
+                        </a>
+                    </button>
+                    <button>
+                        <a
+                            target='_blank'
+                            href='https://meal-sharing-app.vercel.app/'
+                        >
+                            LIVE
+                        </a>
+                    </button>
                 </div>
             </div>
         </section>
