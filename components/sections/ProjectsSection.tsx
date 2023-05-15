@@ -82,7 +82,7 @@ export const ProjectsSection: React.FC = () => {
                     Fully featured meal booking system. Developed with React,
                     with Node/Express and PostgreSQL on the backend.
                 </p>
-                <div className='flex justify-evenly pt-6 text-[1rem] text-white [&>*]:m-auto [&>*]:h-9 [&>*]:w-24 [&>*]:rounded-lg [&>*]:border'>
+                <div className='flex justify-evenly py-6 text-[1rem] text-white [&>*]:m-auto [&>*]:h-9 [&>*]:w-24 [&>*]:rounded-lg [&>*]:border'>
                     <button>
                         <a
                             target='_blank'
