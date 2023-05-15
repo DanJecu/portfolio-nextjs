@@ -19,6 +19,7 @@ export const backend = {
     NodeJS: '/icons/backend/NodeJS.svg',
     ExpressJS: '/icons/backend/ExpressJS.svg',
     NestJS: '/icons/backend/NestJS.svg',
+    KnexJS: '/icons/backend/KnexJS.png',
     Python: '/icons/backend/Python.svg',
     Django: '/icons/backend/Django.svg',
     Flask: '/icons/backend/Flask.svg',
