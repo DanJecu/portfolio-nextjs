@@ -2,13 +2,13 @@ import Image from 'next/image';
 /* eslint-disable @next/next/no-img-element */
 export const ProjectsSection: React.FC = () => {
     return (
-        <section className='m-auto flex w-[95vw] flex-col lg:grid lg:grid-cols-2 lg:grid-rows-[1fr_3fr] '>
+        <section className='m-auto flex w-[95vw] flex-col lg:grid lg:grid-cols-2 lg:grid-rows-[1fr_5fr] '>
             <span className='flex w-[95%] items-center justify-center p-7 text-white lg:col-start-1 lg:col-end-3 lg:mt-auto lg:w-[50%]  lg:pt-24'>
                 <h2 className='pr-4 text-2xl font-bold '>Projects</h2>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </span>
             <div className='flex'>
-                <div className='relative m-auto hidden h-[80vh] w-[80%] rounded-lg md:block md:w-[38%] lg:h-[90%]'>
+                <div className='relative m-auto hidden h-[80vh] w-[80%] rounded-lg md:block md:w-[38%] lg:h-[80%]'>
                     <img
                         key='1'
                         className='h-full w-full rounded-lg object-fill lg:h-[100%]'
@@ -18,7 +18,7 @@ export const ProjectsSection: React.FC = () => {
                         height=''
                     />
                 </div>
-                <div className='relative m-auto  h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[90%]'>
+                <div className='relative m-auto  h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[80%]'>
                     <img
                         key='1'
                         className='h-full w-full rounded-lg object-fill lg:h-[100%]'
