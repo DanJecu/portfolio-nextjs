@@ -102,6 +102,7 @@ export const ProjectsSection: React.FC = () => {
                         >
                             SOURCE
                         </a>
+                        <span></span>
                     </button>
                     <button className='button'>
                         <a
@@ -110,6 +111,7 @@ export const ProjectsSection: React.FC = () => {
                         >
                             LIVE
                         </a>
+                        <span></span>
                     </button>
                 </div>
             </div>
