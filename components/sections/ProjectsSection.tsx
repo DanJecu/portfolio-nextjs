@@ -96,23 +96,23 @@ export const ProjectsSection: React.FC = () => {
                 </p>
                 <div className='[&>*:font-bold] flex justify-evenly py-6 text-[1rem] text-white'>
                     <button className='button'>
-                        <span>  <a
+                       <a
                             target='_blank'
                             href='https://github.com/danJecu/meal-sharing-app'
                         >
                             SOURCE
                         </a>
-                 </span>
+               
                     </button>
                     <button className='button'>
-                        <span>
+                       
                         <a
                             target='_blank'
                             href='https://meal-sharing-app.vercel.app/'
                         >
                             LIVE
                         </a>
-                    </span>
+                  
                     </button>
                 </div>
             </div>
