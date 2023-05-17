@@ -80,7 +80,7 @@ button {
   font-weight: 500;
 }
 
-button span {
+button a {
   position: absolute;
   left: 0;
   top: 0;
@@ -91,7 +91,7 @@ button span {
   border: 4px solid royalblue;
 }
 
-button span::before {
+button a::before {
   content: "";
   display: block;
   position: absolute;
@@ -104,7 +104,7 @@ button span::before {
   transition: all 0.3s;
 }
 
-button:hover span::before {
+button:hover a::before {
   transform: translate(-50%, -50%) rotate(-90deg);
   width: 100%;
   background: royalblue;
@@ -114,6 +114,6 @@ button:hover {
   color: white;
 }
 
-button:active span::before {
+button:active a::before {
   background: #2751cd;
 }
