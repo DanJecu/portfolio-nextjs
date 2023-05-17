@@ -31,7 +31,7 @@ export const ContactSection: React.FC = () => {
                         <Image
                             height='50'
                             width='50'
-                            src='./icons/misc/Linkedin.svg'
+                            src='./icons/misc/LinkedIn.svg'
                             alt='github'
                         />
                     </a>
