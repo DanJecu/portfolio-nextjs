@@ -1,14 +1,33 @@
 import Image from 'next/image';
+import { useRef } from 'react';
+
+import { useInView } from 'framer-motion';
+
 /* eslint-disable @next/next/no-img-element */
 export const ProjectsSection: React.FC = () => {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
+
+    const style = {
+        transform: isInView ? 'none' : 'translateX(200px)',
+        opacity: isInView ? 1 : 0,
+        transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s',
+    };
+
     return (
-        <section className='m-auto flex w-[95vw] flex-col lg:grid lg:grid-cols-2 lg:grid-rows-[1fr_5fr] '>
+        <section
+            className='m-auto flex w-[95vw] flex-col lg:grid lg:grid-cols-2 lg:grid-rows-[1fr_5fr] '
+            style={style}
+        >
             <span className='flex w-[95%] items-center justify-center p-7 text-white lg:col-start-1 lg:col-end-3 lg:mt-auto lg:w-[50%]  lg:pt-24'>
                 <h2 className='pr-4 text-2xl font-bold '>Projects</h2>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </span>
             <div className='flex'>
-                <div className='relative m-auto hidden h-[80vh] w-[80%] rounded-lg md:block md:w-[38%] lg:h-[80%]'>
+                <div
+                    className='relative m-auto hidden h-[80vh] w-[80%] rounded-lg md:block md:w-[38%] lg:h-[80%]'
+                    ref={ref}
+                >
                     <img
                         key='1'
                         className='h-full w-full rounded-lg object-fill lg:h-[100%]'
@@ -96,23 +115,20 @@ export const ProjectsSection: React.FC = () => {
                 </p>
                 <div className='[&>*:font-bold] flex justify-evenly py-6 text-[1rem] text-white'>
                     <button className='button'>
-                       <a
+                        <a
                             target='_blank'
                             href='https://github.com/danJecu/meal-sharing-app'
                         >
                             SOURCE
                         </a>
-               
                     </button>
                     <button className='button'>
-                       
                         <a
                             target='_blank'
                             href='https://meal-sharing-app.vercel.app/'
                         >
                             LIVE
                         </a>
-                  
                     </button>
                 </div>
             </div>

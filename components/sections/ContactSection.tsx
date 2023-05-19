@@ -1,16 +1,33 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRef } from 'react';
+import { useInView } from 'framer-motion';
 import { Footer } from '../Footer';
 
 export const ContactSection: React.FC = () => {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
+
+    const style = {
+        transform: isInView ? 'none' : 'translateX(200px)',
+        opacity: isInView ? 1 : 0,
+        transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s',
+    };
+
     return (
-        <section className='flex flex-col  pt-20 text-white md:pt-2 lg:pt-0'>
+        <section
+            className='flex flex-col  pt-20 text-white md:pt-2 lg:pt-0'
+            style={style}
+        >
             <div className='flex w-[100%] items-center justify-center p-7 pb-12 '>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
                 <h2 className='px-4 text-2xl font-bold '>Contact</h2>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </div>
-            <div className='my-auto flex flex-col items-center leading-relaxed'>
+            <div
+                className='my-auto flex flex-col items-center leading-relaxed'
+                ref={ref}
+            >
                 <h4 className='pb-1 text-secondary'>WRITE ME AN EMAIL</h4>
                 <h4 className='pb-6 text-xl font-bold tracking-wider'>
                     <Link href='mailto:danjecu@outlook.com' target='_blank'>
