@@ -3,7 +3,7 @@ import { Footer } from '../Footer';
 
 export const ContactSection: React.FC = () => {
     return (
-        <section className='flex flex-col  pt-20 text-white'>
+        <section className='flex flex-col  pt-20 text-white md:pt-2'>
             <div className='flex w-[100%] items-center justify-center p-7 pb-12  lg:col-start-1 lg:col-end-3 lg:mt-auto lg:w-[50%]  lg:pt-24'>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
                 <h2 className='px-4 text-2xl font-bold '>Contact</h2>
