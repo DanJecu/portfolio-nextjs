@@ -14,7 +14,7 @@ export const ContactSection: React.FC = () => {
                 <h4 className='pb-6 text-xl font-bold tracking-wider'>
                     danjecu@outlook.com
                 </h4>
-                <h4 className='pb-6 text-secondary'>OR</h4>
+                <h4 className='pb-6 tracking-[.2em] text-secondary'>OR</h4>
                 <h4 className='pb-4 text-secondary'>REACH ME THROUGH</h4>
                 <span className='flex gap-7'>
                     <a href='https://github.com/danJecu' target='_blank'>
