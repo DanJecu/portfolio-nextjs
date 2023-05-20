@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
-import { TextScroll } from '../components/TextScroll/TextScroll';
+import { TextScroll } from '../TextScroll/TextScroll';
 
 export const AboutSection: React.FC = () => {
     const ref = useRef(null);

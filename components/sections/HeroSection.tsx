@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Logo } from '../components/Logo';
+import { Logo } from '../Logo';
 
 export const HeroSection: React.FC = () => {
     return (

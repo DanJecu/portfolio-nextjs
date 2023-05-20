@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
-import { Footer } from '../components/Footer';
+import { Footer } from '../Footer';
 
 export const ContactSection: React.FC = () => {
     const ref = useRef(null);
