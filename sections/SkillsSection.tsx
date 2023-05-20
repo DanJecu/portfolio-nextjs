@@ -1,5 +1,5 @@
 import { frontend, backend, misc } from '@/utils/icons';
-import { SkillCard } from '../SkillCard';
+import { SkillCard } from '../components/SkillCard';
 import { useRef } from 'react';
 
 import { useInView } from 'framer-motion';
