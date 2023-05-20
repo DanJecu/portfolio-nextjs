@@ -68,7 +68,7 @@ button {
     width: 10em;
     position: relative;
     height: 3.5em;
-    border: 3px ridge #149cea;
+    border: 3px ridge #5a4fcf;
     outline: none;
     background-color: transparent;
     color: white;
@@ -108,5 +108,5 @@ button:hover::after {
 }
 
 button:hover {
-    box-shadow: inset 0px 0px 25px #1479ea;
+    box-shadow: inset 0px 0px 25px #5a4fcf;
 }
