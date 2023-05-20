@@ -24,7 +24,7 @@ export const ProjectsSection: React.FC = () => {
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </span>
             <div className='flex'>
-                <div className='relative m-auto hidden h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[80%] xl:block'>
+                <div className='relative m-auto hidden h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[80%] lg:w-[42%] xl:block'>
                     <img
                         key='1'
                         className='h-full w-full rounded-lg object-fill lg:h-[100%] '
@@ -36,7 +36,7 @@ export const ProjectsSection: React.FC = () => {
                 </div>
                 <div
                     ref={ref}
-                    className='relative m-auto  h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[80%] lg:w-[60%]'
+                    className='relative m-auto h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[80%] lg:w-[42%]'
                 >
                     <img
                         key='1'
