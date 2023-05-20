@@ -26,7 +26,7 @@ export const ProjectsSection: React.FC = () => {
             <div className='flex'>
                 <div
                     className='relative m-auto hidden h-[80vh] w-[80%] rounded-lg md:block md:w-[38%] lg:h-[80%]'
-                    ref={ref}
+                    
                 >
                     <img
                         key='1'
@@ -37,7 +37,7 @@ export const ProjectsSection: React.FC = () => {
                         height=''
                     />
                 </div>
-                <div className='relative m-auto  h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[80%]'>
+                <div ref={ref} className='relative m-auto  h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[80%]'>
                     <img
                         key='1'
                         className='h-full w-full rounded-lg object-fill lg:h-[100%]'
