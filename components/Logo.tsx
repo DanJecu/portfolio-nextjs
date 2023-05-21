@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 export const Logo: React.FC = () => {
     const [showText, setShowText] = useState(false);
@@ -8,12 +8,12 @@ export const Logo: React.FC = () => {
     }, [showText]);
     return (
         <div>
-            <h1 className='text-center pb-1 text-4xl md:text-5xl lg:text-6xl xl:text-7xl'>
+            <h1 className="pb-1 text-center text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
                 <motion.span
                     layout
-                    key='d'
-                    style={{ display: 'inline-block' }}
-                    transition={{ ease: 'linear', duration: 0.7, delay: 0.5 }}
+                    key="d"
+                    style={{ display: "inline-block" }}
+                    transition={{ ease: "linear", duration: 0.7, delay: 1 }}
                 >
                     D
                 </motion.span>
@@ -21,8 +21,8 @@ export const Logo: React.FC = () => {
                     <motion.span
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        style={{ display: 'inline-block' }}
-                        transition={{ delay: 1.5, ease: 'easeIn', duration: 2 }}
+                        style={{ display: "inline-block" }}
+                        transition={{ delay: 2, ease: "easeIn", duration: 2 }}
                     >
                         AN
                     </motion.span>
@@ -30,9 +30,9 @@ export const Logo: React.FC = () => {
                 {showText && <span> </span>}
                 <motion.span
                     layout
-                    key='j'
-                    style={{ display: 'inline-block' }}
-                    transition={{ ease: 'linear', duration: 0.7, delay: 0.5 }}
+                    key="j"
+                    style={{ display: "inline-block" }}
+                    transition={{ ease: "linear", duration: 0.7, delay: 1 }}
                 >
                     J
                 </motion.span>
@@ -40,18 +40,18 @@ export const Logo: React.FC = () => {
                     <motion.span
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        style={{ display: 'inline-block' }}
-                        transition={{ delay: 1.5, ease: 'easeIn', duration: 2 }}
+                        style={{ display: "inline-block" }}
+                        transition={{ delay: 2, ease: "easeIn", duration: 2 }}
                     >
                         ECU
                     </motion.span>
                 )}
             </h1>
             <motion.h2
-                className='pt-1 text-2xl text-center text-[#a9aec0] font-light md:text-3xl lg:text-4xl xl:text-5xl'
+                className="pt-1 text-center text-2xl font-light text-[#a9aec0] md:text-3xl lg:text-4xl xl:text-5xl"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 2.8, ease: 'easeOut', duration: 0.7 }}
+                transition={{ delay: 2.8, ease: "easeOut", duration: 0.7 }}
             >
                 Full Stack Developer
             </motion.h2>
