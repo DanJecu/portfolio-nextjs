@@ -9,11 +9,11 @@ export const SkillIcons: React.FC<SkillIconsProps> = ({ category }) => {
         <>
             {Object.entries(category).map((value: [string, string]) => (
                 <span
-                    className='mr-2 flex h-10 w-10 flex-col items-center justify-start text-center lg:h-14 lg:w-14'
+                    className='mr-2 flex h-10 w-10 flex-col items-center justify-start text-center md:h-14 md:w-14 lg:h-14 lg:w-14'
                     key={value[0]}
                 >
                     <Image
-                        className='md:h-16 md:w-16'
+                        className='md:h-20 md:w-20'
                         src={value[1]}
                         alt={value[0]}
                         height='40'
