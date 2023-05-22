@@ -14,8 +14,8 @@ export const Cinemania: React.FC = () => {
     };
 
     return (
-        <>
-            <div className="lg:place-self-center">
+        <div className="flex flex-col-reverse pt-20 lg:m-auto lg:h-screen lg:w-[95vw] lg:flex-row lg:justify-evenly">
+            <div className="lg:w-[50%] lg:place-self-center xl:w-[40%]">
                 <h2 className="pb-2 pt-4 text-center text-xl  font-bold text-zinc-200 lg:pb-4 lg:text-2xl">
                     Cinemania
                 </h2>
@@ -97,8 +97,8 @@ export const Cinemania: React.FC = () => {
                     </button>*/}
                 </div>
             </div>
-            <div className="flex" style={style}>
-                <div className="relative m-auto hidden h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[80%] lg:w-[42%] xl:block">
+            <div className="flex gap-16" style={style}>
+                <div className="relative m-auto hidden h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[80%] xl:block xl:w-[70%]">
                     <img
                         key="1"
                         className="h-full w-full rounded-lg object-fill lg:h-[100%] "
@@ -110,7 +110,7 @@ export const Cinemania: React.FC = () => {
                 </div>
                 <div
                     ref={ref}
-                    className="relative m-auto h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[80%] lg:w-[42%]"
+                    className="relative m-auto h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[80%] lg:w-[100%] xl:w-[70%]"
                 >
                     <img
                         key="1"
@@ -122,6 +122,6 @@ export const Cinemania: React.FC = () => {
                     />
                 </div>
             </div>
-        </>
+        </div>
     );
 };
