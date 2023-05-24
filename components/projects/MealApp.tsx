@@ -28,7 +28,7 @@ export const MealApp: React.FC = () => {
                 </div>
                 <div
                     ref={ref}
-                    className="relative m-auto h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[80%] lg:w-[50%]"
+                    className="relative m-auto h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[80%] lg:w-[50%] xl:w-[42%]"
                 >
                     <img
                         key="1"
