@@ -12,12 +12,12 @@ module.exports = {
                 general: ['Cabin', 'sans-serif'],
             },
             screens: {
-                'sm': '375px'
-                
+                sm: '375px',
             },
             colors: {
                 card: '#2E3039',
                 secondary: '#A9AEC0',
+                'icon-hover': '#95B58A',
             },
         },
     },

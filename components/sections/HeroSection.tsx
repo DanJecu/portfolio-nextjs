@@ -3,7 +3,7 @@ import { Logo } from '../Logo';
 
 export const HeroSection: React.FC = () => {
     return (
-        <section className='m-auto flex w-[90%] flex-col items-center justify-center'>
+        <section className='custom-bg m-auto flex w-[100%] flex-col items-center justify-center '>
             <div className='my-auto flex font-bold text-white '>
                 <Logo />
             </div>
