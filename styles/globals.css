@@ -20,7 +20,7 @@ h2 {
 }
 
 .custom-bg {
-    background-image: url('public/background.svg');
+    background-image: url('/background.svg');
     animation: appear 5s linear forwards;
     opacity: 0;
 }
