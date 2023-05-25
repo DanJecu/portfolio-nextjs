@@ -21,7 +21,7 @@ h2 {
 
 .custom-bg {
     background-image: url('/background.svg');
-    animation: appear 5s linear forwards;
+    animation: appear 3.5s linear forwards;
     opacity: 0;
 }
 
@@ -80,7 +80,7 @@ h2 {
     width: 10em;
     position: relative;
     height: 3.5em;
-    border: 4px solid #95b58a;
+    border: 4px solid hsla(261, 61%, 46%, 1);
     outline: none;
     background-color: transparent;
     color: white;
@@ -120,7 +120,7 @@ h2 {
 }
 
 .button:hover {
-    box-shadow: inset 0px 0px 25px #95b58a;
+    box-shadow: inset 0px 0px 25px hsla(261, 61%, 46%, 1);
 }
 
 .disabled {
