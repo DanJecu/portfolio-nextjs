@@ -25,7 +25,7 @@ export const AboutSection: React.FC = () => {
             <div className='relative h-[40vh] lg:row-span-2 lg:row-start-1 lg:h-[55%] lg:place-self-center lg:justify-self-center '>
                 <img
                     key='1'
-                    className='mask-image-gradient max-h-full max-w-full rounded-3xl object-cover lg:h-[100%]'
+                    className='mask-image-gradient max-h-full max-w-full rounded-3xl object-cover  lg:h-[100%]'
                     src='./2.PNG'
                     alt='profile picture'
                     width=''
@@ -45,7 +45,7 @@ export const AboutSection: React.FC = () => {
                     the JavaScript stack of React and NodeJS, as well as
                     Typescript, Python and SQL.
                 </p>
-                <div className='my-[30px] hidden  lg:m-auto lg:inline lg:pt-24 xl:pt-48 xl:text-xl'>
+                <div className='my-[30px] hidden  lg:m-auto lg:inline lg:pt-24 xl:pt-48 xl:text-2xl'>
                     <h1 className='text-shadow-lg text-center font-bold opacity-90'>
                         I am a
                     </h1>
