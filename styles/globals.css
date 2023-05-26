@@ -21,6 +21,9 @@ h2 {
 
 .custom-bg {
     background-image: url('/background.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
     animation: appear 3.5s linear forwards;
     opacity: 0;
 }
@@ -30,6 +33,7 @@ h2 {
         opacity: 1;
     }
 }
+
 
 .mask-image-gradient {
     -webkit-mask-image: linear-gradient(
