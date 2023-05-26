@@ -101,7 +101,7 @@ export const Cinemania: React.FC = () => {
                 className='flex items-center justify-around gap-10 px-1 lg:w-[50vw]'
                 style={style}
             >
-                <div className='xl-max-w-[48%] relative mx-auto my-auto h-[80vh] max-w-[80vw] rounded-lg md:max-w-[50%] lg:h-[75.3%] lg:max-w-[70%] xl:min-w-[43%] hidden'>
+                <div className='xl-max-w-[48%] relative mx-auto my-auto hidden h-[80%] max-w-[80vw] rounded-lg md:max-w-[50%] lg:h-[75.3%] lg:max-w-[70%] xl:block xl:min-w-[43%]'>
                     <img
                         key='1'
                         className='h-full w-full rounded-lg object-fill lg:h-[100%] '
@@ -110,11 +110,10 @@ export const Cinemania: React.FC = () => {
                         width=''
                         height=''
                     />
-              
                 </div>
                 <div
                     ref={ref}
-                    className='xl-max-w-[48%] relative mx-auto my-auto h-[80vh] max-w-[80vw] rounded-lg md:max-w-[50%] lg:h-[75.3%] lg:max-w-[70%] xl:min-w-[43%]'
+                    className='xl-max-w-[48%] relative mx-auto my-auto h-[80%] max-w-[80vw] rounded-lg md:max-w-[50%] lg:h-[75.3%] lg:max-w-[70%] xl:min-w-[43%]'
                 >
                     <img
                         key='1'
