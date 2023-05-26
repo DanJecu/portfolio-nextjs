@@ -57,15 +57,15 @@ export const Logo: React.FC = () => {
                 Full Stack Developer
             </motion.h2>
             <motion.div
-                className='flex  justify-center gap-7 pt-10 lg:gap-16'
+                className='flex justify-evenly pt-10'
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 3.5, ease: 'easeOut', duration: 0.7 }}
+                transition={{ delay: 3.7, ease: 'easeOut', duration: 0.9 }}
             >
                 <a href='https://github.com/danJecu' target='_blank'>
                     <Image
-                        height='40'
-                        width='40'
+                        height='50'
+                        width='50'
                         src='./icons/misc/githubMono.svg'
                         alt='github'
                         className='invert transition duration-300 ease-out hover:scale-125'
@@ -85,8 +85,8 @@ export const Logo: React.FC = () => {
                     target='_blank'
                 >
                     <Image
-                        height='40'
-                        width='40'
+                        height='50'
+                        width='50'
                         src='/icons/misc/linkedinMono.svg'
                         alt='linkedin'
                         className='invert transition duration-300 ease-out hover:scale-125'
