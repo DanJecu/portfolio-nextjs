@@ -128,9 +128,7 @@ export const Cinemania: React.FC = () => {
                         </a>
                     </button>
                     <button className="disabled" disabled>
-                        <a target="_blank" href="">
-                            IN PROGRESS
-                        </a>
+                        <a>IN PROGRESS</a>
                     </button>
                 </div>
             </div>
