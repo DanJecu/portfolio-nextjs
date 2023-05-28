@@ -14,7 +14,7 @@ export const Cinemania: React.FC = () => {
     };
 
     return (
-        <div className="flex flex-col-reverse pt-20 lg:h-screen lg:w-[100vw] lg:flex-row lg:justify-between lg:px-4">
+        <div className="flex flex-col pt-20 lg:h-screen lg:w-[100vw] lg:flex-row lg:justify-between lg:px-4">
             <div
                 className="flex items-center justify-around gap-10 px-1 lg:w-[50vw]"
                 style={style}
@@ -95,7 +95,7 @@ export const Cinemania: React.FC = () => {
                     </span>
                     <span className="flex items-center gap-1 rounded-xl bg-card p-[.35rem] text-black">
                         <Image
-                            src="/icons/backend/Firebase.png"
+                            src="/icons/backend/Firebase.svg"
                             width="18"
                             height="18"
                             alt="Firebase"
