@@ -17,7 +17,7 @@ export const CatsWiki: React.FC = () => {
         <div className='flex flex-col-reverse pt-20 lg:col-start-1 lg:col-end-3 lg:h-screen lg:w-[100vw] lg:flex-row lg:justify-between lg:px-4'>
             <div className='my-auto lg:w-[48%]'>
                 <h2 className='pb-2 pt-4 text-center text-xl  font-bold text-zinc-200 lg:pb-4 lg:text-2xl'>
-                    CatsWiki
+                    CatWiki
                 </h2>
                 <div className='flex flex-wrap justify-center gap-3 lg:mx-auto lg:w-9/12'>
                     <span className='flex items-center gap-1 rounded-xl bg-card p-[.35rem] text-black'>
