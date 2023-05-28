@@ -15,6 +15,34 @@ export const Cinemania: React.FC = () => {
 
     return (
         <div className='flex flex-col-reverse pt-20 lg:h-screen lg:w-[100vw] lg:flex-row lg:justify-between lg:px-4'>
+            <div
+                className='flex items-center justify-around gap-10 px-1 lg:w-[50vw]'
+                style={style}
+            >
+                <div className='xl-max-w-[48%] relative mx-auto my-auto hidden h-[80%] max-w-[80vw] rounded-lg md:max-w-[50%] lg:h-[75.3%] lg:max-w-[70%] xl:block xl:min-w-[43%]'>
+                    <img
+                        key='1'
+                        className='h-full w-full rounded-lg object-fill lg:h-[100%] '
+                        src='./projects/cinemania2.png'
+                        alt='profile picture'
+                        width=''
+                        height=''
+                    />
+                </div>
+                <div
+                    ref={ref}
+                    className='xl-max-w-[48%] relative mx-auto my-auto h-[80%] max-w-[80vw] rounded-lg md:max-w-[50%] lg:h-[75.3%] lg:max-w-[70%] xl:min-w-[43%]'
+                >
+                    <img
+                        key='1'
+                        className='h-full w-full rounded-lg object-fill lg:h-[100%]'
+                        src='./projects/cinemania1.png'
+                        alt='profile picture'
+                        width=''
+                        height=''
+                    />
+                </div>
+            </div>
             <div className='my-auto lg:w-[48%]'>
                 <h2 className='pb-2 pt-4 text-center text-xl  font-bold text-zinc-200 lg:pb-4 lg:text-2xl'>
                     Cinemania
@@ -95,34 +123,6 @@ export const Cinemania: React.FC = () => {
                             IN PROGRESS
                         </a>
                     </button>*/}
-                </div>
-            </div>
-            <div
-                className='flex items-center justify-around gap-10 px-1 lg:w-[50vw]'
-                style={style}
-            >
-                <div className='xl-max-w-[48%] relative mx-auto my-auto hidden h-[80%] max-w-[80vw] rounded-lg md:max-w-[50%] lg:h-[75.3%] lg:max-w-[70%] xl:block xl:min-w-[43%]'>
-                    <img
-                        key='1'
-                        className='h-full w-full rounded-lg object-fill lg:h-[100%] '
-                        src='./projects/cinemania2.png'
-                        alt='profile picture'
-                        width=''
-                        height=''
-                    />
-                </div>
-                <div
-                    ref={ref}
-                    className='xl-max-w-[48%] relative mx-auto my-auto h-[80%] max-w-[80vw] rounded-lg md:max-w-[50%] lg:h-[75.3%] lg:max-w-[70%] xl:min-w-[43%]'
-                >
-                    <img
-                        key='1'
-                        className='h-full w-full rounded-lg object-fill lg:h-[100%]'
-                        src='./projects/cinemania1.png'
-                        alt='profile picture'
-                        width=''
-                        height=''
-                    />
                 </div>
             </div>
         </div>
