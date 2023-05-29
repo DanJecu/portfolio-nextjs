@@ -14,36 +14,38 @@ export const MealApp: React.FC = () => {
     };
 
     return (
-        <>
+        <section className='mx-auto flex w-[95%] flex-col justify-evenly pb-14 lg:col-start-1 lg:col-end-3 lg:flex-row'>
             <div
-                className='flex items-center justify-center gap-10 px-1'
+                className='flex items-center justify-center gap-10 px-1 lg:px-10'
                 style={style}
             >
-                <div className='xl-max-w-[48%] relative hidden h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[70%] xl:block xl:min-w-[44%]'>
-                    <img
+                <div className='relative hidden h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[70%] xl:block xl:min-w-[44%] xl:max-w-[48%]'>
+                    <Image
                         key='1'
                         className='h-full w-full rounded-lg object-fill lg:h-[100%] '
-                        src='./projects/mealShare2.png'
-                        alt='profile picture'
-                        width=''
-                        height=''
+                        src='/projects/mealShare2.png'
+                        alt='cat-wiki project screenshot'
+                        width='0'
+                        height='0'
+                        sizes='100vw'
                     />
                 </div>
                 <div
                     ref={ref}
-                    className='xl-max-w-[48%] relative my-auto h-[80vh] max-w-[80vw] rounded-lg md:max-w-[50%] lg:h-[70%] lg:max-w-[70%] xl:min-w-[43%] '
+                    className='relative m-auto h-[80vh] max-w-[90vw] rounded-lg md:max-w-[50%] lg:h-[70%] lg:max-w-[100%] xl:min-w-[43%] xl:max-w-[48%] '
                 >
-                    <img
+                    <Image
                         key='1'
                         className='h-full w-full rounded-lg object-fill lg:h-[100%]'
-                        src='./projects/mealShare1.png'
-                        alt='profile picture'
-                        width=''
-                        height=''
+                        src='/projects/mealShare1.png'
+                        alt='cat-wiki project screenshot'
+                        width='0'
+                        height='0'
+                        sizes='100vw'
                     />
                 </div>
             </div>
-            <div className='lg:place-self-center'>
+            <div className='lg:w-[50%] lg:place-self-center'>
                 <h2 className='pb-2 pt-4 text-center text-xl  font-bold text-zinc-200 lg:pb-4 lg:text-2xl'>
                     Meal Sharing
                 </h2>
@@ -127,6 +129,6 @@ export const MealApp: React.FC = () => {
                     </button>
                 </div>
             </div>
-        </>
+        </section>
     );
 };

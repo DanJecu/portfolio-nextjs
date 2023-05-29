@@ -1,4 +1,4 @@
-import { CatsWiki } from '../projects/CatsWiki';
+import { CatWiki } from '../projects/CatWiki';
 import { Cinemania } from '../projects/Cinemania';
 import { MealApp } from '../projects/MealApp';
 
@@ -9,8 +9,8 @@ export const ProjectsSection: React.FC = () => {
                 <h2 className='pr-4 text-2xl font-bold '>Projects</h2>
                 <div className='h-[1.5px] flex-1 bg-white'></div>
             </span>
+            <CatWiki />
             <MealApp />
-            <CatsWiki />
             <Cinemania />
         </section>
     );

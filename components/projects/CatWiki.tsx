@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
 
-export const CatsWiki: React.FC = () => {
+export const CatWiki: React.FC = () => {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
 
@@ -14,10 +14,10 @@ export const CatsWiki: React.FC = () => {
     };
 
     return (
-        <div className='flex flex-col-reverse pt-20 lg:col-start-1 lg:col-end-3 lg:h-screen lg:w-[100vw] lg:flex-row lg:justify-between lg:px-4'>
-            <div className='my-auto lg:w-[48%]'>
+        <section className='mx-auto flex w-[95%] flex-col-reverse justify-evenly pb-14 lg:col-start-1 lg:col-end-3 lg:flex-row'>
+            <div className='lg:w-[50%] lg:place-self-center'>
                 <h2 className='pb-2 pt-4 text-center text-xl  font-bold text-zinc-200 lg:pb-4 lg:text-2xl'>
-                    CatWiki
+                    Cat Wiki
                 </h2>
                 <div className='flex flex-wrap justify-center gap-3 lg:mx-auto lg:w-9/12'>
                     <span className='flex items-center gap-1 rounded-xl bg-card p-[.35rem] text-black'>
@@ -89,33 +89,35 @@ export const CatsWiki: React.FC = () => {
                 </div>
             </div>
             <div
-                className='flex items-center justify-around gap-10 px-1 lg:w-[50vw]'
+                className='flex items-center justify-center gap-10 px-1 lg:px-10'
                 style={style}
             >
-                <div className='xl-max-w-[48%] relative mx-auto my-auto hidden h-[80%] max-w-[80vw] rounded-lg md:max-w-[50%] lg:h-[75.3%] lg:max-w-[70%] xl:block xl:min-w-[43%]'>
-                    <img
+                <div className='relative hidden h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[70%] xl:block xl:min-w-[44%] xl:max-w-[48%]'>
+                    <Image
                         key='1'
                         className='h-full w-full rounded-lg object-fill lg:h-[100%] '
-                        src='./projects/cats2.png'
-                        alt='profile picture'
-                        width=''
-                        height=''
+                        src='/projects/cats2.png'
+                        alt='cat-wiki project screenshot'
+                        width='0'
+                        height='0'
+                        sizes='100vw'
                     />
                 </div>
                 <div
                     ref={ref}
-                    className='xl-max-w-[48%] relative mx-auto my-auto h-[80%] max-w-[80vw] rounded-lg md:max-w-[50%] lg:h-[75.3%] lg:max-w-[70%] xl:min-w-[43%]'
+                    className='relative m-auto h-[80vh] max-w-[90vw] rounded-lg md:max-w-[50%] lg:h-[70%] lg:max-w-[100%] xl:min-w-[43%] xl:max-w-[48%] '
                 >
-                    <img
+                    <Image
                         key='1'
                         className='h-full w-full rounded-lg object-fill lg:h-[100%]'
-                        src='./projects/cats1.png'
-                        alt='profile picture'
-                        width=''
-                        height=''
+                        src='/projects/cats1.png'
+                        alt='cat-wiki project screenshot'
+                        width='0'
+                        height='0'
+                        sizes='100vw'
                     />
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
