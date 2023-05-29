@@ -14,7 +14,7 @@ export const MealApp: React.FC = () => {
     };
 
     return (
-        <section className='mx-auto flex w-[95%] flex-col justify-evenly pb-14 lg:col-start-1 lg:col-end-3 lg:flex-row'>
+        <section className='mx-auto flex w-[90%] flex-col justify-evenly pb-14 lg:col-start-1 lg:col-end-3 lg:flex-row'>
             <div
                 className='flex items-center justify-center gap-10 px-1 lg:px-10'
                 style={style}

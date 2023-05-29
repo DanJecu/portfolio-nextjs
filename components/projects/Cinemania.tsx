@@ -14,7 +14,7 @@ export const Cinemania: React.FC = () => {
     };
 
     return (
-        <section className='mx-auto flex flex w-[95%] flex-col-reverse justify-evenly pb-14 lg:col-start-1 lg:col-end-3 lg:flex-row '>
+        <section className='mx-auto flex w-[90%] flex-col-reverse justify-evenly pb-14 lg:col-start-1 lg:col-end-3 lg:flex-row '>
             <div className='lg:w-[50%] lg:place-self-center'>
                 <h2 className='pb-2 pt-4 text-center text-xl  font-bold text-zinc-200 lg:pb-4 lg:text-2xl'>
                     Cinemania
