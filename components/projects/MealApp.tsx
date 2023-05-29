@@ -14,11 +14,11 @@ export const MealApp: React.FC = () => {
     };
 
     return (
-        <section
-            className='mx-auto flex w-[95%] flex-col justify-evenly pb-14 lg:col-start-1 lg:col-end-3 lg:flex-row'
-            style={style}
-        >
-            <div className='flex items-center justify-center gap-10 px-1 lg:px-10'>
+        <section className='mx-auto flex w-[95%] flex-col justify-evenly pb-14 lg:col-start-1 lg:col-end-3 lg:flex-row'>
+            <div
+                className='flex items-center justify-center gap-10 px-1 lg:px-10'
+                style={style}
+            >
                 <div className='relative hidden h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[70%] xl:block xl:min-w-[44%] xl:max-w-[48%]'>
                     <Image
                         key='1'
