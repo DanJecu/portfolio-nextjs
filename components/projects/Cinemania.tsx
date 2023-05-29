@@ -14,7 +14,10 @@ export const Cinemania: React.FC = () => {
     };
 
     return (
-        <section className='mx-auto flex flex w-[95%] flex-col-reverse justify-evenly pb-14 lg:col-start-1 lg:col-end-3 lg:flex-row '>
+        <section
+            className='mx-auto flex w-[95%] flex-col-reverse justify-evenly pb-14 lg:col-start-1 lg:col-end-3 lg:flex-row'
+            style={style}
+        >
             <div className='lg:w-[50%] lg:place-self-center'>
                 <h2 className='pb-2 pt-4 text-center text-xl  font-bold text-zinc-200 lg:pb-4 lg:text-2xl'>
                     Cinemania
@@ -104,10 +107,7 @@ export const Cinemania: React.FC = () => {
                     </button>
                 </div>
             </div>
-            <div
-                className='flex items-center justify-center gap-10 px-1 lg:px-10'
-                style={style}
-            >
+            <div className='flex items-center justify-center gap-10 px-1 lg:px-10'>
                 <div className='relative hidden h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[70%] xl:block xl:min-w-[44%] xl:max-w-[48%]'>
                     <Image
                         key='1'
