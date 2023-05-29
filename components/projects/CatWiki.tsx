@@ -94,25 +94,23 @@ export const CatWiki: React.FC = () => {
                 ref={ref}
             >
                 <div className='relative hidden h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[70%] xl:block xl:min-w-[44%] xl:max-w-[48%]'>
-                    <Image
+                    <img
                         key='1'
                         className='h-full w-full rounded-lg object-fill lg:h-[100%] '
                         src='/projects/cats2.png'
                         alt='cat-wiki project screenshot'
-                        width='0'
-                        height='0'
-                        sizes='100vw'
+                        width=''
+                        height=''
                     />
                 </div>
                 <div className='relative m-auto h-[80vh] max-w-[90vw] rounded-lg md:max-w-[50%] lg:h-[70%] lg:max-w-[100%] xl:min-w-[43%] xl:max-w-[48%] '>
-                    <Image
+                    <img
                         key='1'
                         className='h-full w-full rounded-lg object-fill lg:h-[100%]'
                         src='/projects/cats1.png'
                         alt='cat-wiki project screenshot'
-                        width='0'
-                        height='0'
-                        sizes='100vw'
+                        width=''
+                        height=''
                     />
                 </div>
             </div>
