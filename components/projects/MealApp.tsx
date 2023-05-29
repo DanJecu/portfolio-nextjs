@@ -18,6 +18,7 @@ export const MealApp: React.FC = () => {
             <div
                 className='flex items-center justify-center gap-10 px-1 lg:px-10'
                 style={style}
+                ref={ref}
             >
                 <div className='relative hidden h-[80vh] w-[80%] rounded-lg md:w-[38%] lg:h-[70%] xl:block xl:min-w-[44%] xl:max-w-[48%]'>
                     <Image
@@ -30,10 +31,7 @@ export const MealApp: React.FC = () => {
                         sizes='100vw'
                     />
                 </div>
-                <div
-                    ref={ref}
-                    className='relative m-auto h-[80vh] max-w-[90vw] rounded-lg md:max-w-[50%] lg:h-[70%] lg:max-w-[100%] xl:min-w-[43%] xl:max-w-[48%] '
-                >
+                <div className='relative m-auto h-[80vh] max-w-[90vw] rounded-lg md:max-w-[50%] lg:h-[70%] lg:max-w-[100%] xl:min-w-[43%] xl:max-w-[48%] '>
                     <Image
                         key='1'
                         className='h-full w-full rounded-lg object-fill lg:h-[100%]'
