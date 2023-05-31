@@ -67,7 +67,7 @@ export const Cinemania: React.FC = () => {
                     </span>
                     <span className='flex items-center gap-1 rounded-xl bg-card p-[.35rem] text-black'>
                         <Image
-                            src='/icons/backend/Docker.svg'
+                            src='/icons/misc/Docker.svg'
                             width='18'
                             height='18'
                             alt='docker'
