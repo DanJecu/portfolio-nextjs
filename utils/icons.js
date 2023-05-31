@@ -32,11 +32,13 @@ export const backend = {
 
 export const misc = {
     Git: '/icons/misc/Git.svg',
+    Docker: '/icons/misc/Docker.svg',
     Github: '/icons/misc/Github.svg',
+    Jira: '/icons/misc/Jira.png',
     Vite: '/icons/misc/Vite.svg',
+    Jest: '/icons/misc/Jest.svg',
     Figma: '/icons/misc/Figma.svg',
     Illustrator: '/icons/misc/Illustrator.svg',
-    Jest: '/icons/misc/Jest.svg',
     Linux: '/icons/misc/Linux.svg',
     Powershell: '/icons/misc/Powershell.svg',
     R: '/icons/misc/R.svg',
