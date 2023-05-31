@@ -99,8 +99,10 @@ export const Cinemania: React.FC = () => {
                             SOURCE
                         </a>
                     </button>
-                    <button className='disabled' disabled>
-                        <a>IN PROGRESS</a>
+                    <button className='button'>
+                        <a target='_blank' href='https://cinemania.fly.dev/'>
+                            LIVE
+                        </a>
                     </button>
                 </div>
             </div>
