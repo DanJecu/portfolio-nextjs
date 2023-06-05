@@ -97,7 +97,7 @@ export const Cinemania: React.FC = () => {
                 <p className='m-auto w-11/12 pt-6 text-center text-sm font-light leading-5 tracking-wide text-secondary lg:text-[1.08rem] lg:leading-7'>
                     Cinemania is a movie app that was created through a
                     collaborative team project. The app was developed using
-                    React, Material-UI (MUI), Emotion, Express.js, and Firebase. <Still in progress>
+                    React, Material-UI (MUI), Emotion, Express.js, and Firebase. Still in progress
                 </p>
                 <div className='[&>*:font-bold] flex justify-evenly py-6 text-[1rem] text-white'>
                     <button className='button'>
