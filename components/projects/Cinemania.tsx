@@ -103,7 +103,7 @@ export const Cinemania: React.FC = () => {
                     <button className='button'>
                         <a
                             target='_blank'
-                            href='https://github.com/HackYourFuture-CPH/CINEMANIA'
+                            href='https://github.com/danJecu/CINEMANIA'
                         >
                             SOURCE
                         </a>
